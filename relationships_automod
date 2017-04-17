@@ -1,0 +1,665 @@
+    Priority: 11
+    # Remove all rape posts
+    type: submission
+    title+body (regex, includes-word): ["rape","raped","sexual assault","sexually assaulted","sexual abuse","sexually abused","molest","molested", "r*pe ","r*ped "]
+    action: remove
+    set_flair: ["[queue]", "que"]
+    message_subject: "Your {{kind}} is temporarily removed pending approval"
+    message: |
+        Your recent {{kind}} : " {{title}} " has been removed because our AutoModerator has found that your post may be dealing with rape or sexual abuse in some way. If you are seeking direct advice on dealing with such a situation (or are asking if something constitutes rape), we ask that you please post instead to /r/rape, /r/rapecounseling, or /r/secondary_survivors (if someone you know has been abused). These communities have dedicated userbases that can provide and better guarfpackantee the sort of sensitivity, support, and protection that may not be available here in /r/relationships. Please understand that you have done nothing wrong in posting here in the first place. We hope you understand that we are trying to make sure you get the best possible help available and give you the benefit of our experience in moderating this subreddit.  If you believe you are receiving this message in error, please message the moderators for reapproval.
+
+        ---
+
+        0. Send a request for reapproval by using the "Click to request approval" in the comment by AutoModerator below the {{kind}}.
+
+        Please note that while temporary removal is automated, reapproval is done by a volunteer mod - and this may take a little time depending on the volume of requests and time-zone. **Please be patient, and send only one request for approval.**  
+
+        This is an automated message. **DO NOT REPLY**
+
+
+    comment: |
+        The above {{kind}} has been removed because our AutoModerator has found that your post may be dealing with rape or sexual abuse in some way. If you are seeking direct advice on dealing with such a situation (or are asking if something constitutes rape), we ask that you please post instead to /r/rape, /r/rapecounseling, or /r/secondary_survivors (if someone you know has been abused). These communities have dedicated userbases that can provide and better guarantee the sort of sensitivity, support, and protection that may not be available here in /r/relationships. Please understand that you have done nothing wrong in posting here in the first place. We hope you understand that we are trying to make sure you get the best possible help available and give you the benefit of our experience in moderating this subreddit.  If you believe you are receiving this message in error, please message the moderators for reapproval.
+
+        [Click here (once) to request reapproval](http://www.reddit.com/message/compose?to=%2Fr%2Frelationships&subject=Please+approve+my+{{kind}}&message=I+would+like+to+request+the+approval+of+my+{{kind}}+at:+%0A%0A+{{permalink}}+%0A%0A+---+%0A%0A+My+{{kind}}+was+pulled+for+*Being a post dealing with rape or sexual assault*.+%0A%0A+%0A%0A+/u/{{author}}#btn) and then click send **once** only.
+
+        The reapproval is manual, so send a **single request** only. Multiple requests do not mean faster approval, in fact they may clog the modqueue and result in reapprovals taking even more time.
+    
+  
+--- 
+
+    
+    Priority: 10
+    # Remove all meta posts
+    type: submission
+    title+body (regex, includes-word): ["mods","moderators","mod","moderator","meta"]
+    action: remove
+    set_flair: ["[queue]", "que"]
+    message_subject: "Your {{kind}} has been removed"
+    message: |
+        Your recent {{kind}} : "{{title}}" has been **removed** because:
+
+        * It appears to be a meta-post.  Please message the moderators your concerns. If you feel you are receiving this message in error, please [contact the moderators](http://www.reddit.com/message/compose?to=%2Fr%2Frelationships&subject=Submission+removed+for+meta+posting&message=My+post+can+be+found+at:+{{permalink}}) and explain your problem.
+
+        You will need to properly format and resubmit your post.  All submission rules are listed in the sidebar and the [/r/relationships/wiki](/r/relationships/wiki/index#wiki_about_.2Fr.2Frelationships).  
+        Please check that your post fits the following rules before resubmission:
+
+        * Include the ages and genders of the people involved, and length of relationship.  
+        * Include a specific question or problem.  General queries ("Does anyone else hate cheaters?") or rants will be redirected to [more appropriate subreddits](https://www.reddit.com/r/relationships/wiki/index#wiki_other_subreddits_of_interest).
+        * Avoid walls of text by using paragraphs. You need to add [two returns between paragraphs](http://www.reddit.com/r/relationships/wiki/index#wiki_how_to_avoid_.22wall_of_text.22.3F) on reddit.  
+        * Include a **\*\*bolded**** [TL;DR](http://www.reddit.com/r/relationships/wiki/index#wiki_what_is_tl.3Bdr.3F_why_do_i_need_it.3F) or short summary at the end of your post. 
+        * For Update posts, include a link to the previous or original post.   
+        * **Please flair your post after submitting** by clicking 'flair' below the post and selecting the [most appropriate category](http://www.reddit.com/r/relationships/wiki/assignflair)
+
+        ---
+
+        Once the [your {{kind}}]({{permalink}}) complies with **all of the above rules**, it can be resubmitted [here](https://www.reddit.com/r/relationships/submit?title=Me+%5B00+M/F%5D+with+my+___+%5B00+M/F%5D+duration,+short-description;text=Paste+your+submission+here.+Be+sure+to+explain+in+detail+with+line+breaks.++%0A++%0A++---+++%0A++**tl%3Bdr**:+Mandatory+summary/question!).
+        
+        ---
+
+
+    comment: |
+        The above {{kind}} has been **removed** because:
+
+        * It appears to be a meta-post.  Please message the moderators your concerns. If you feel you are receiving this message in error, please [contact the moderators](http://www.reddit.com/message/compose?to=%2Fr%2Frelationships&subject=Submission+removed+for+meta+posting&message=My+post+can+be+found+at:+{{permalink}}) and explain your problem.
+
+        You must make suitable edits to ensure that the {{kind}} conplies to **all the rules** listed in the sidebar, and in the [wiki](/r/relationships/wiki/index#wiki_about_.2Fr.2Frelationships) (relevant for mobile users).  When you are done, please repost your submission.  
+        
+        ---
+
+---
+
+
+    Priority: 9
+    # Locked Threads
+    is_edited: false
+    parent_submission:
+        id: [3llbou,35pytp,35ss6d,357025,3bvgu3,35uhy1,35twww,3ebzpc,cr8alp2,35y3y7,3606bd,35zepu,361pfd,3632tb,367ax3,368gpj,3697p6,36ca6y,36j7ta,36tnsw,372q6u,3774g1,37dnmp,37c88j,37gjag,37hr78,37mbn6,37q7xj,37pz7v,37pmiw,37xckz,382ach,383dj8,3849g9,38404e,388r2k,38cah7,38cagq,38g1zy,38hzs8,38iuj9,38jv28,38l3w0,38gwte,38dbzb,38lbyz,38o28k.38s11k,38vsg5,38uvow,390vcb,38e432,3e74cp,394bqy,396kei,3jxz0e,3jq8ol,399y9s,39ctvp,39g6c2,39g32x,39gvrs,39iyvs,39lyz3,39o1in,39u5xh,39wrhk,3a1dw7,3a3ed7,3a1oku,3kbr2i,3a5t99,3a8ldw,3aeu9x,3aem2q,3ae3q2,3afoc7,3aqb5w,3atb3d,3avu6q,3awo1k,3ayhdq,3b2tzw,3azmpo,3b1tth,3b73bz,3b4l79,3b45qg,3bhm3d,3bhiw0,3bist4,3bfwtr,3bilx4,3bia51,3bj1sz,3bj1sz,3boiqb,3bnkb3,3bpvdx,3bx7qg,3bv59k,3bw1ds,3bw21o,3c07ey,3c52jn,3k3fzs,3e4ih6,3c5t90,3c6wte,3c5nae,3c8mta,3c7tl9,3c8rpq,3canjz,3cbilr,3cad3o,3k6vfd,3cc5i9,3cc3vm,3cfcsg,3cgids,3cgh9h,3cfykw,3cgecq,3ch6pe,3jwu68,3cftfs,3ci2sg,3ci0yp,3cg065,3cjywd,3cklzf,3cl3kq,3cmtrh,3cn7pf,3clxks,3k3fzs,3co3on,3cp5wh,3jutm5,3cq5yh,3jtu2y,3cnmpb,3cr0ek,3cti61,3cvaxr,3cu45i,3cx4jw,3czze,3d211j,3d33xb,3d3cen,3d3w8u,3d5vnr,3d7i82,3d9fop,3d9ubg,3jtqco,3da2i7,3d8yr3,3da2i7,3d9ojx,3d8yr3,3d9dmz,3d9ubg,3d9waz,3k63c7,3kbr2i,3aexd3,3b2w5d,3k3fzs,3d9xcm,3dddbv,3de7vd,3dfiwk,3dg34w,3dhl6j,3df8q4,3jtqso,3djfhh,3dmw5k,3djh9k,3dqcpl,3drztk,3duefw,3dusgu,3dz2m5,3dz3f7,3du4xj,3dzbg8,3dzlpi,3dx6zt,3dzbya,3e0w1c,3e8hmi,3e0qwc,3dv6t8,3e4h7z,3e7hg3,3kbr2i,3e9g5y,3dzj00,3ecaaf,3ecag6,3ef2t1,3ehgmm,3ej746,3ejjdw,3elifj,3elp9x,3eoy07,3dcgt4,3et231,3euh0t,3euw9p,3ezmle,3exi0fm,3exi0f,3eura6,3f0bsk,3f1q6y,3f3i9h,3f370f,3esukk,3f51xt,3f3qc7,3f6qoi,3f3gg,3f8vcf,3f9vd5,3f98zk,3bc8ia,3fb3v5,3fd23m,3fds26,3ff124,3fhbk2,3fgo8j,3fgxg9,3fiqr3,3fjlrc,3fj83f,3fmthr,3fm45h,3fkufa,3fn9q0,3fmusk,3fry14,3ftm3x,3frvno,3fvooq,3fvfm7,3fxone,3g01on,3g1836,3g20l2,3g35dp,3g6btr,3g5394,3g6t0g,3ga7k2,3gdqwf,3gevio,3gh3a2,3ghw3x,3ggllk,3gjmsf,3gj1zg,3gl237,3gk0c9,3g2b6j,3gmjni,3gq3du,3gqstf,3gs3ag,3gqqxx,3gtsh6,3gxa9t,3h37bz,3h6oyw,3hdcgy,3heb5v,3hbut,3hfk58,3hh2wp,3hhk01,3hfper,3gzne5,3hk5d7,3hir3v,3hj1ec,3hlpyn,3hpk9m,3hpjac,3hkmdq,3hpfzn,3hqsf6,3hqmfa,3hu6er,3huy0u,3huax9,3hv3vn,3hb3gw,3hypbj,3i02ws,3i2gji,3i6azw,3i74ao,3icybv,3ibz69,3i7tff,3idn4h,3ifsi2,3ij81k,3in7af,3ioegs,3iqib9,3inooc,3iqkkc,3itx36,3ixy55,3iybe4,3j0h9j,3j33ca,3j42u0,3ich8q,3j44dw,3j0y1g,3ja5qy,3izbf3,3jclub,3j6pig,3jf2xo,3iv5i1,3j56y3,3jlbv8,3jot1x,3jq8ol,3js4n7,3jt5j9,3k3f3u,3k4bea,3k6aim,3k5o1s,3k8vjb,3kbe9l,3kadqd,3kc2r8,3ke488,3kc2r8,3kc0cf,3keui3,3kgcvw,3kj5ki,3kkm3k,3kkkcj,3kkw10,3kodta,3koneb,3kqf9y,3kq8ll,3ksf9t,3ku5c8,3kui1g,3kr0ny,3kwb7r,3k9unu,3kzu15,3ky38l,3kjo07,3l0eqx,3l1vjy,3l0sg9,3l1jlu,3l1z47,3l1okc,3l14b9,3l1qf1,3l28pr,3l4xm3,3l5opg,3l4jn7,3l7woi,3l7fm3,3cxzp2,3l6e15,3l3pxz,3l5ruu,3l82v5,3l8qku,3lag36,3l7lxy,3lb8mf,3lb1wb,3lbmj2,3lbqwe,3lcw35,3lcsea,3lbd3h,3lf4pl,3lh3oc,3ld63i,3lh9r6,3lhjtf,3lgroe,3lgjoa,3lgxrp,3ljzmy,3lj2ia,3ljz7u,3llpht,3lmzjy,3lncky,3lkibw,3ln6e2,3lz2j4,3lnuuy,3loiz2,3ltbv6,3lteyr,3ltw76,3lvrvj,3lxk1l,3ml00g,3mju33,3n8xyo, 3p4uh6, 3p7nq3]
+    action: remove  
+    message_subject: "Your comment is removed "
+    message: "You've recently made a comment on a locked thread. Because the thread is locked, the comment is automatically removed."
+
+
+---
+
+
+    Priority: 8
+    # Flair everything
+    type: submission
+    set_flair: ["[new]", "new"]
+
+
+
+---
+
+
+    Priority: 7
+    # Report all Urls in post submissions 
+    type: submission
+    url+body (regex, includes): "(((mailto)|((ht|f)tps?)?:\\/\\/))+([-a-zA-Z0-9:@;?&=\\/%\\+\\.\\*!'\\(\\),\\$_\\{\\}\\^~\\[\\]`#|]+)?\\.[a-z]{2,4}(\\.[a-z]{2})?((/[a-zA-Z0-9_%]*)+)?(\\.[a-z]*)?(:\\d{1,5})?"
+    ~title (regex): ["update"]
+    action: remove
+    set_flair: ["[queue]", "que"]
+    message_subject: "Your {{kind}} has been removed"
+    message: |
+        Your recent {{kind}} : "{{title}}" has been **removed** because:
+
+        * It contains an external url.  External URL are not allowed on /r/relationships.  You must remove the url/link.  If you feel you are receiving this message in error or are confused, please [contact the moderators](http://www.reddit.com/message/compose?to=%2Fr%2Frelationships&subject=Submission+removed+for+External+URL&message=My+post+can+be+found+at:+{{permalink}}) and explain your problem.
+
+        You will need to properly format and resubmit your post.  All submission rules are listed in the sidebar and the [/r/relationships/wiki](/r/relationships/wiki/index#wiki_about_.2Fr.2Frelationships).  
+        Please check that your post fits the following rules before resubmission:
+
+        * Include the ages and genders of the people involved, and length of relationship.  
+        * Include a specific question or problem.  General queries ("Does anyone else hate cheaters?") or rants will be redirected to [more appropriate subreddits](https://www.reddit.com/r/relationships/wiki/index#wiki_other_subreddits_of_interest).
+        * Avoid walls of text by using paragraphs. You need to add [two returns between paragraphs](http://www.reddit.com/r/relationships/wiki/index#wiki_how_to_avoid_.22wall_of_text.22.3F) on reddit.  
+        * Include a **\*\*bolded**** [TL;DR](http://www.reddit.com/r/relationships/wiki/index#wiki_what_is_tl.3Bdr.3F_why_do_i_need_it.3F) or short summary at the end of your post. 
+        * For Update posts, include a link to the previous or original post.   
+        * **Please flair your post after submitting** by clicking 'flair' below the post and selecting the [most appropriate category](http://www.reddit.com/r/relationships/wiki/assignflair)
+
+        ---
+
+        Once the [your {{kind}}]({{permalink}}) complies with **all of the above rules**, it can be resubmitted [here](https://www.reddit.com/r/relationships/submit?title=Me+%5B00+M/F%5D+with+my+___+%5B00+M/F%5D+duration,+short-description;text=Paste+your+submission+here.+Be+sure+to+explain+in+detail+with+line+breaks.++%0A++%0A++---+++%0A++**tl%3Bdr**:+Mandatory+summary/question!).
+        
+        ---
+
+
+    comment: |
+        The above {{kind}} has been **removed** because:
+
+         * It contains an external url.  External URL are not allowed on /r/relationships.  You must remove the url/link.  If you feel you are receiving this message in error or are confused, please [contact the moderators](http://www.reddit.com/message/compose?to=%2Fr%2Frelationships&subject=Submission+removed+for+External+URL&message=My+post+can+be+found+at:+{{permalink}}) and explain your problem.
+
+        You must make suitable edits to ensure that the {{kind}} confirms to **all the rules** listed in the sidebar, and in the [wiki](/r/relationships/wiki/index#wiki_about_.2Fr.2Frelationships) (relevant for mobile users).  When you are done, please repost your submission.  
+
+        ---
+
+
+
+
+---
+
+
+    priority: 6
+    # No age
+    type: submission
+    ~title+body (regex): ["[mf]?\\d{2}[mf]?", "(twent|thirt|fourt|fort|fift|sixt|sevent)(ies|y|y-?ish)"]
+    action: remove
+    set_flair: ["[queue]", "que"]
+    message_subject: "Your {{kind}} has been removed"
+    message: |
+        Your recent {{kind}} : "{{title}}" has been **removed** because:  
+
+        * It does not include the ages and genders of those involved, and/or length of relationships.  If you feel you are receiving this message in error or are confused, please [contact the moderators](http://www.reddit.com/message/compose?to=%2Fr%2Frelationships&subject=Submission+removed+for+no+ages,+genders,+or+length&message=My+post+can+be+found+at:+{{permalink}}) and explain your problem.
+
+        You will need to properly format and resubmit your post.  All submission rules are listed in the sidebar and the [/r/relationships/wiki](/r/relationships/wiki/index#wiki_about_.2Fr.2Frelationships).  
+        Please check that your post fits the following rules before resubmission:
+
+        * Include the ages and genders of the people involved, and length of relationship.  
+        * Include a specific question or problem.  General queries ("Does anyone else hate cheaters?") or rants will be redirected to [more appropriate subreddits](https://www.reddit.com/r/relationships/wiki/index#wiki_other_subreddits_of_interest).
+        * Avoid walls of text by using paragraphs. You need to add [two returns between paragraphs](http://www.reddit.com/r/relationships/wiki/index#wiki_how_to_avoid_.22wall_of_text.22.3F) on reddit.  
+        * Include a **\*\*bolded**** [TL;DR](http://www.reddit.com/r/relationships/wiki/index#wiki_what_is_tl.3Bdr.3F_why_do_i_need_it.3F) or short summary at the end of your post. 
+        * For **Update Posts**, include a link to the previous or original post.   
+        * **Please flair your post after submitting** by clicking 'flair' below the post and selecting the [most appropriate category](http://www.reddit.com/r/relationships/wiki/assignflair)
+
+        ---
+
+        Once the [your {{kind}}]({{permalink}}) complies with **all of the above rules**, it can be resubmitted [here](https://www.reddit.com/r/relationships/submit?title=Me+%5B00+M/F%5D+with+my+___+%5B00+M/F%5D+duration,+short-description;text=Paste+your+submission+here.+Be+sure+to+explain+in+detail+with+line+breaks.++%0A++%0A++---+++%0A++**tl%3Bdr**:+Mandatory+summary/question!).
+        
+        ---
+
+    comment: |
+        The above {{kind}} has been **removed** because:
+
+        * It does not include the ages and genders of those involved.  If you feel you are receiving this message in error or are confused, please [contact the moderators](http://www.reddit.com/message/compose?to=%2Fr%2Frelationships&subject=Submission+removed+for+no+ages,+genders,+or+length&message=My+post+can+be+found+at:+{{permalink}}) and explain your problem.
+
+        You must make suitable edits to ensure that the {{kind}} complies to **all the rules** listed in the sidebar, and in the [wiki](/r/relationships/wiki/index#wiki_about_.2Fr.2Frelationships) (relevant for mobile users).  When you are done, please repost your submission.  
+        
+        ---
+      
+      
+---
+
+    priority: 5
+    # Update with no link
+    type: submission
+    title: "update"
+    ~body: ["reddit.com/r/relationships", "redd.it"]
+    action: remove
+    set_flair: ["Updates", "Updates"]
+    message_subject: "Your {{kind}} has been removed"
+    message: |
+        Your recent {{kind}} : "{{title}}" has been **removed** because:  
+
+        * It is an update post without a link to the previous or original post.  If you feel you are receiving this message in error, please [contact the moderators](http://www.reddit.com/message/compose?to=%2Fr%2Frelationships&subject=Submission+removed+for+update+post+without+link&message=My+post+can+be+found+at:+{{permalink}}) and include your problem.
+
+        You will need to properly format and resubmit your post.  All submission rules are listed in the sidebar and the [/r/relationships/wiki](/r/relationships/wiki/index#wiki_about_.2Fr.2Frelationships).  
+        Please check that your post fits the following rules before resubmission:
+
+        * Include the ages and genders of the people involved, and length of relationship.  
+        * Avoid walls of text by using paragraphs. You need to add [two returns between paragraphs](http://www.reddit.com/r/relationships/wiki/index#wiki_how_to_avoid_.22wall_of_text.22.3F) on reddit.  
+        * Include a **\*\*bolded**** [TL;DR](http://www.reddit.com/r/relationships/wiki/index#wiki_what_is_tl.3Bdr.3F_why_do_i_need_it.3F) or short summary at the end of your post. 
+        * For Update posts, include a link to the previous or original post.  
+        * **Please flair your post after submitting** by clicking 'flair' below the post and selecting the [most appropriate category](http://www.reddit.com/r/relationships/wiki/assignflair)
+
+        ---
+
+        Once the [your {{kind}}]({{permalink}}) complies with **all of the above rules**, it can be resubmitted [here](https://www.reddit.com/r/relationships/submit?title=Me+%5B00+M/F%5D+with+my+___+%5B00+M/F%5D+duration,+short-description;text=Paste+your+submission+here.+Be+sure+to+explain+in+detail+with+line+breaks.++%0A++%0A++---+++%0A++**tl%3Bdr**:+Mandatory+summary/question!).
+        
+        Be aware that our subreddit only allows a single Update to provide the community with closure.  If you believe you will have more information to share after a few more days or weeks, we advise you to hold off on updating the community until you can summarize everything into a single update.
+
+        ---
+
+    comment: |
+        The above {{kind}} has been **removed** for the following reason:
+
+        * It is an update post without a link to the previous or original post.  If you feel you are receiving this message in error, please [contact the moderators](http://www.reddit.com/message/compose?to=%2Fr%2Frelationships&subject=Submission+removed+for+update+post+without+link&message=My+post+can+be+found+at:+{{permalink}}) and include your problem.
+
+        You must make suitable edits to ensure that the {{kind}} complies to **all the rules** listed in the sidebar, and in the [wiki](/r/relationships/wiki/index#wiki_about_.2Fr.2Frelationships) (relevant for mobile users).  When you are done, please repost your submission.  
+        
+        ---
+
+      
+---
+
+
+
+    priority: 5
+    # Update Check
+    type: submission
+    moderators_exempt: False
+    title: "update"
+    action: remove
+    set_flair: ["Updates", "Updates"]
+    message_subject: "Your {{kind}} is temporarily removed pending approval"
+    message: |
+        Your recent {{kind}} : " {{title}} " has been **temporarily removed** because:  
+
+        * It is an update post.   Our subreddit only allows a single update to provide the community closure on the situation presented in your original post.  If you believe you will have more information to share with the community after a few more days or weeks, we advise you to hold off on updating the community until you can summarize everything into a single update as you will no longer be allowed to make additional updates.  Once you submit an update, your previous post will be locked, to prevent further discussion on the original post.   
+          Updates are not allowed on removed posts. Please read [this](https://www.reddit.com/r/relationships/wiki/index#wiki_why_was_my_post_locked_and.2For_removed.3F) to see why your post may have been removed.
+
+        All submission rules are listed in the sidebar and the [/r/relationships/wiki](/r/relationships/wiki/index#wiki_about_.2Fr.2Frelationships) (esp if you are on mobile).  
+        Generally, you should take care of following when submitting a post :
+
+        * Include the ages and genders of those involved, and the length of relationship.  
+        * Avoid a wall of text, and should be broken into paragraphs. You need to add two returns between paragraphs for reddit to show them.   
+            Refer to FAQ: [How to avoid "Wall of text"?](http://www.reddit.com/r/relationships/wiki/index#wiki_how_to_avoid_.22wall_of_text.22.3F) for some pointers.  
+        * Include a tl;dr or any sort of short summary. Please edit your post to add a (preferably **bolded**) tl;dr.  
+            Refer to FAQ: [What is TL;DR? Why do I need it?](http://www.reddit.com/r/relationships/wiki/index#wiki_what_is_tl.3Bdr.3F_why_do_i_need_it.3F) for some pointers.  
+        * Avoid external urls.
+        * Additionally, **please add flair to your post once you submit** by clicking 'flair' below the post and selecting the most appropriate topic-category.
+            Refer to [Assign Flairs tutorial](http://www.reddit.com/r/relationships/wiki/assignflair) to know how to add a flair, or a tag to your submitted post.
+            If you are using a mobile app that does not support adding flairs, you can mention so in your approval request to the mods.
+
+        ---
+
+        Once the {{kind}} is edited to comply with **all of the above rules**, it can be approved by moderators.
+
+        0. Visit  
+            {{permalink}}   
+            and click the "edit" link below the {{kind}} to make proper edits
+        0. Send a request for reapproval by using the "Click to request approval" in the comment by AutoModerator below the {{kind}}.
+
+        Please note that while temporary removal is automated, reapproval is done by a volunteer mod - and this may take a little time depending on the volume of requests and time-zone. **Please be patient, and send only one request for approval.**  
+
+        This is an automated message. **DO NOT REPLY**
+
+    comment: |
+        The above {{kind}} has been **temporarily removed** for **one or more** of the following reasons from the rules (as seen in sidebar):
+
+        * It is an update post.   Our subreddit only allows a single update to provide the community closure on the situation presented in your original post.  If you believe you will have more information to share with the community after a few more days or weeks, we advise you to hold off on updating the community until you can summarize everything into a single update as you will no longer be allowed to make additional updates.  Once you submit an update, your previous post will be locked, to prevent further discussion on the original post.   
+          Updates are not allowed on removed posts. Please read [this](https://www.reddit.com/r/relationships/wiki/index#wiki_why_was_my_post_locked_and.2For_removed.3F) to see why your post may have been removed.
+
+        You must make suitable edits to ensure that the {{kind}} confirms to **all the rules** listed in the sidebar, and in [wiki](/r/relationships/wiki/index#wiki_about_.2Fr.2Frelationships) (relevant for mobile users).  
+
+        [Click here (once) to request reapproval](http://www.reddit.com/message/compose?to=%2Fr%2Frelationships&subject=Please+approve+my+{{kind}}&message=I+would+like+to+request+the+approval+of+my+{{kind}}+at:+%0A%0A+{{permalink}}+%0A%0A+---+%0A%0A+My+{{kind}}+was+pulled+for+*being+an+update+post+without+links+to+original+post*.+%0A%0A+I've+read+the+sidebar+and+made+all+suitable+corrections+to+comply+with+the+rules.+%0A%0A+/u/{{author}}#btn) and then click send **once** only.    
+
+        The reapproval is manual, so send a **single request** only. Multiple requests do not mean faster approval, in fact they may clog the modqueue and result in reapprovals taking even more time.
+
+
+---
+
+
+    priority: 4
+    # No summary
+    type: submission
+    ~body (regex, includes): ["tl.?dr", "tl.?rd","lt.?dr","lt.?rd","td.?lr","tl.?dr.?", "tl.?rd.?","lt.?dr.?","lt.?rd.?","td.?lr.?","tldr","tlrd","ltdr","ltrd","tdlr"]
+    action: remove
+    set_flair: ["[queue]", "que"]
+    message_subject: "Your {{kind}} has been removed"
+    message: |
+        Your recent {{kind}} : "{{title}}" has been **removed** because:  
+
+        * It does not appear to contain a tl;dr or any sort of short summary. Please edit your post to add a **\*\*bolded**** tl;dr. Refer to FAQ: [What is TL;DR? Why do I need it?](http://www.reddit.com/r/relationships/wiki/index#wiki_what_is_tl.3Bdr.3F_why_do_i_need_it.3F) for some pointers.  If you feel you are receiving this message in error, please [contact the moderators](http://www.reddit.com/message/compose?to=%2Fr%2Frelationships&subject=Submission+removed+for+no+TLDR&message=My+post+can+be+found+at:+{{permalink}}) and include your problem.
+
+        You will need to properly format and resubmit your post.  All submission rules are listed in the sidebar and the [/r/relationships/wiki](/r/relationships/wiki/index#wiki_about_.2Fr.2Frelationships).  
+        Please check that your post fits the following rules before resubmission:
+
+        * Include the ages and genders of the people involved, and length of relationship.  
+        * Include a specific question or problem.  General queries ("Does anyone else hate cheaters?") or rants will be redirected to [more appropriate subreddits](https://www.reddit.com/r/relationships/wiki/index#wiki_other_subreddits_of_interest).
+        * Avoid walls of text by using paragraphs. You need to add [two returns between paragraphs](http://www.reddit.com/r/relationships/wiki/index#wiki_how_to_avoid_.22wall_of_text.22.3F) on reddit.  
+        * Include a **\*\*bolded**** [TL;DR](http://www.reddit.com/r/relationships/wiki/index#wiki_what_is_tl.3Bdr.3F_why_do_i_need_it.3F) or short summary at the end of your post. 
+        * For Update posts, include a link to the previous or original post.   
+        * **Please flair your post after submitting** by clicking 'flair' below the post and selecting the [most appropriate category](http://www.reddit.com/r/relationships/wiki/assignflair)
+
+        ---
+
+        Once the [your {{kind}}]({{permalink}}) complies with **all of the above rules**, it can be resubmitted [here](https://www.reddit.com/r/relationships/submit?title=Me+%5B00+M/F%5D+with+my+___+%5B00+M/F%5D+duration,+short-description;text=Paste+your+submission+here.+Be+sure+to+explain+in+detail+with+line+breaks.++%0A++%0A++---+++%0A++**tl%3Bdr**:+Mandatory+summary/question!).
+
+        ---
+
+    comment: |
+        The above {{kind}} has been **removed** because:
+
+        * It does not appear to contain a tl;dr or any sort of short summary. Please edit your post to add a **\*\*bolded**** tl;dr. Refer to FAQ: [What is TL;DR? Why do I need it?](http://www.reddit.com/r/relationships/wiki/index#wiki_what_is_tl.3Bdr.3F_why_do_i_need_it.3F) for some pointers.  If you feel you are receiving this message in error, please [contact the moderators](http://www.reddit.com/message/compose?to=%2Fr%2Frelationships&subject=Submission+removed+for+no+TLDR&message=My+post+can+be+found+at:+{{permalink}}) and include your problem.  
+
+        You must make suitable edits to ensure that the {{kind}} complies to **all the rules** listed in the sidebar, and in the [wiki](/r/relationships/wiki/index#wiki_about_.2Fr.2Frelationships) (relevant for mobile users).  When you are done, please repost your submission.  
+
+        ---
+
+---
+
+
+    priority: 3
+    # Wall of text
+    type: submission
+    ~body (regex, includes): ["\\n\\n", "  \\n"]
+    action: remove
+    set_flair: ["[queue]", "que"]
+    message_subject: "Your {{kind}} has been removed"
+    message: |
+        Your recent {{kind}} : "{{title}}" has been **removed** because:  
+
+        * It appears to be a wall of text, and needs to be broken into paragraphs. You need to add two returns between paragraphs for reddit to show them. Refer to FAQ: [How to avoid "Wall of text"?](http://www.reddit.com/r/relationships/wiki/index#wiki_how_to_avoid_.22wall_of_text.22.3F).  If you feel you are receiving this message in error, please [contact the moderators](http://www.reddit.com/message/compose?to=%2Fr%2Frelationships&subject=Submission+removed+for+wall+of+text&message=My+post+can+be+found+at:+{{permalink}}) and include your problem.  
+
+        You will need to properly format and resubmit your post.  All submission rules are listed in the sidebar and the [/r/relationships/wiki](/r/relationships/wiki/index#wiki_about_.2Fr.2Frelationships).  
+        Please check that your post fits the following rules before resubmission:
+
+        * Include the ages and genders of the people involved, and length of relationship.  
+        * Include a specific question or problem.  General queries ("Does anyone else hate cheaters?") or rants will be redirected to [more appropriate subreddits](https://www.reddit.com/r/relationships/wiki/index#wiki_other_subreddits_of_interest).
+        * Avoid walls of text by using paragraphs. You need to add [two returns between paragraphs](http://www.reddit.com/r/relationships/wiki/index#wiki_how_to_avoid_.22wall_of_text.22.3F) on reddit.  
+        * Include a **\*\*bolded**** [TL;DR](http://www.reddit.com/r/relationships/wiki/index#wiki_what_is_tl.3Bdr.3F_why_do_i_need_it.3F) or short summary at the end of your post. 
+        * For Update posts, include a link to the previous or original post.   
+        * **Please flair your post after submitting** by clicking 'flair' below the post and selecting the [most appropriate category](http://www.reddit.com/r/relationships/wiki/assignflair)
+
+        ---
+
+        Once the [your {{kind}}]({{permalink}}) complies with **all of the above rules**, it can be resubmitted [here](https://www.reddit.com/r/relationships/submit?title=Me+%5B00+M/F%5D+with+my+___+%5B00+M/F%5D+duration,+short-description;text=Paste+your+submission+here.+Be+sure+to+explain+in+detail+with+line+breaks.++%0A++%0A++---+++%0A++**tl%3Bdr**:+Mandatory+summary/question!).
+
+    comment: |
+        The above {{kind}} has been **removed** because :
+
+        * It appears to be a wall of text, and needs to be broken into paragraphs. You need to add two returns between paragraphs for reddit to show them.  If you feel you are receiving this message in error, please [contact the moderators](http://www.reddit.com/message/compose?to=%2Fr%2Frelationships&subject=Submission+removed+for+wall+of+textg&message=My+post+can+be+found+at:+{{permalink}}) and include your problem.  
+
+        You must make suitable edits to ensure that the {{kind}} complies to **all the rules** listed in the sidebar, and in the [wiki](/r/relationships/wiki/index#wiki_about_.2Fr.2Frelationships) (relevant for mobile users).  When you are done, please repost your submission.  
+
+---
+
+
+    Priority: 2
+    # Remove Social media links //message only
+    standard: facebook links
+    action: remove
+    message_subject: "Your {{kind}} is removed"
+    message: |  
+        Your [{{kind}}]({{permalink}}) has been automatically removed because
+
+        * It contains links to social networks that may reveal personal information
+
+        The removal is automatic, and your {{kind}} will need to be resubmitted **once you make the appropriate edits to remove the links**.
+
+        This is an automated message. **DO NOT REPLY**
+
+
+---
+
+
+    Priority: 1
+    # Remove all Urls in comments
+    type: comment
+    body (regex, includes): "(((mailto)|((ht|f)tps?)?:\\/\\/))+([-a-zA-Z0-9:@;?&=\\/%\\+\\.\\*!'\\(\\),\\$_\\{\\}\\^~\\[\\]`#|]+)?\\.[a-z]{2,4}(\\.[a-z]{2})?((/[a-zA-Z0-9_%]*)+)?(\\.[a-z]*)?(:\\d{1,5})?"
+    ~body+body (regex): ["reddit.com/r/[^/]+?/comments/", "redd.it"]
+    action: remove
+
+
+---
+
+
+    # Approve everything else (meets the conditions)
+    domain: "self.relationships"
+    action: approve
+
+
+---
+
+
+    # Reports Alerting level - send warning to Modmail
+    #reports: 2
+    #modmail_subject: "AutoModerator : Alerting 2 Reports"
+    #modmail: "The above item by /u/{{author}} has received at least 2 reports, please have a closer look for possible violations."
+
+
+---
+
+
+    # Reports Critical level - remove and send message to modmail
+    reports: 3
+    action: remove
+    modmail_subject: "[Notification] AutoModerator : Removed item with 3 Reports"
+    modmail: "The above item by /u/{{author}} has received 3 reports and thus been automatically removed. You may please verify whether the removal was proper and take appropriate action."
+    
+
+---
+
+
+    #Subreddit Link Bans
+    type: comment
+    url+body: [r/theredpill, r/breakingmom, archive.today, redditlog, robert glover, sjw, tumblrina, fatpeoplehate, awalt, pussy pass, MGTOW, TamperMonkey, please update, update please, spyphone-online, TRP, red pill, redpill, awalt, AshleyMadison, cuckold, The Way of the Superior Man, cock carouse, monkey branching, married man sex life, spell caster, spellcaster, gmail.com, saying she''s a gold digger, Play stupid games, win stupid prizes, ephebophile, surveymonkey, cache, cached, abdada, planet waves, planetwaves, r/vegan]
+    action: remove
+    Action_reason: Disallowed Subreddit - {{match}}
+
+---
+    type: submission
+    url+body: [AshleyMadison, Ashley Madison, Voxo]
+    action: remove
+---
+    
+    #Ban evader
+    author:
+        name (includes): [mabden,jintak,lancebass,mods,m0ds,mod$,m0dS,kintu,n2tattoo,n2tatt00,n2tatto0,n2tatt0o,pathetic2,Im_a_judgmental_guy,jwmarriot,GayDad]
+    action: remove
+
+---
+
+
+    # Reports Cross-post  - remove TotesMessenger comment and send message to modmail
+    author:
+        name (includes): "TotesMessenger"
+    ~body (includes): "[/r/relation"
+    action: remove
+    modmail_subject: "Cross-post Report : Monitor the removed comment for links"
+    modmail: "The TotesMessenger has reported a cross-post, the removed comment includes the link(s) to the cross-post. Watch the comment and take appropriate action."
+
+---
+
+
+    # User shadowbans
+    author: [Throwaway85488128,AtmosphericMusk,privatly,super-commenting,maaahhhNiggah,spaghetti_robotti,forestafire,ijustmadethisforpost,Wudakom,SwagnumMagnum,SlaveryIsGone,Red_Pill_Theory,huhoasoni,provokingisking,CaptainNic123,taktaktaknie,Ares973,look_behind_youuu,techhousemd,car-jerk,i4mn30,shit_tiersexhavers,disNdayEH,chefboyardeeznuttz,jafbm,Hobo_With_A_Snotgun,raised_by_wolves__,Alphadios,shit_tier_whitewoman,HootyTheBigFatOwl,Brian_Sella,teeelo,neggasauce,jackdogg8402,drpavelimfbi,Cheezwhized,whit_tier_white_lib,ShackledShark,PinoyDick,GivesPirateAdvice,trowwayporsienpre,sarlag,DroopyMcLoopy,DownvoteMcGeee,smthsmth,IFuckedIndianGrandma,Nu_Chlorine,nger_worshiping_cuck,CrumbleUnderPressure,kaimie,F0xyMarmalady,dp2519,relationbullship,newmeroncity,husbandisababy,kingofsnipers,not_shadowbanned_yet,SwampChomp,thincactus,jimmyrustlerpro,MyNameIsNotMichael,hughfrump,masterofthefireswamp,OCDetriment,1166,Milnah23,akejeh25235,BlondFaith,gottabeh0nest,drchocolatemilk,why1221,socialinjusticewar,Dominantmuthafudga,throwawayyfam,spacecuck,simplers2,Jamesthemac,RealSolidAdvice,mcbrad851,mod_o_rater,Horus_Krishna_2,Trollmaster112,guiltyguiltyahsng,skippwiggins,Fly_Swim,hypervisor_,throwme_intotheabyss,chicohina,Revengilias,lolmonsoon,bigdumbanimal20,Runripleyrun,Ready-to-downvote,ringootabemasu,349gn,diamondzxxxd,cocaine604,asdsdasasdasdasdasda,ECTD,1166,ravelsbolero,rockmejesus,uncletouchytime,ganjab,iomega12,AwryyrwA,hi-yes-maybe,ku89,reallyoops,yratlhzhammer,babybird86,ClefAria,cao_ni,alienreptilian,wast3d_arm0r,bodiesstackneatly,fantasticprinter,says_harsh_things,totallyarealaccount2,blinddivine,jlkdajglkaj,blacksarethugs,FETUS_JAM,GrimDawnFosh,riff1111,OhEmGeeZ,LurkyRando,dodgerh8ter,knicks123456,Whatnow666,RmSsD,Betterredthandead_,CumForJesus,noncrybabyman,JustDIMS,kasc91,thisacctisntreal,DontUpvoteMePlz,JustWantToBeBig,irishlatte,killfatties,Dreamweaverz,greattape,politicalandsad,reallybruh31,LiftEatSexSleep,whyalwaysm3,Virus069,JesusStoleMySwag,meeepeeem,1throw2throw,tramplers,uppitywhine,penispipe19,Auschwitz-Birkenau,fuck_da_haes,skippwiggins,Sex4days,Shyrk,Joe4210,_College_drop_out_,Redditgey,Farabee,throaway9292,throaway9292,throaway9292,DONALD_THE_GOD,bernieisfinshed,bobban,red_js77,paprikasoft,PeanutButter230,igivefingawfuladvice,Kmc897,entitled_son,decimated_napkin,starryknight,appledull,snapshott,elchidodeloeste,wood_ape,salomeangel,ughthisplace,torroar,thechaosz,rec251000,Mr_Fun_Phd,throwaway244555,jerkreddituser17,o0evillusion0o,howdoyounotknow19,penguin_says_slide,floor-pi,imreallyjustsayin,RayOfSunshine243,tramplers2,RochelleRochelleEsq,bicycling_elephant,agarioaddicted,Bodacious_the_Bull,ThinWhiteDook,typicalrelationship,dahbankheist,TriggeredDaily,stonedbydinner,Kublaikhan,SexySpinster75,Kublaikhan6,spacedrum,styxferryman,jfiscal,paralaraza,Thumbtaxxx,ealest,Seldoma,wuneternalround,Paddyjoe690,howtomakeit123,blahandmoreblah,InfoTechGod,fuckyou_dumbass,OfficerByrd,benedict_de_spinache,WhiteIpadworks,PornLinksHere,rachelzoeyaknow,anus_dei,argnerg,WinningAdvice,skeletorraptorjesus,blaze24200,89jd12hi2,WisdomRealism,werewolf35b,_jenie,blastyblastyblast,backtoroan,twocuckchuck,stopupvotingmenow,setconsumes,RogueAngelX,ayyyyylamooooo,feelhorrible33,Deere00,AmIajerk777,Reddit_daddy,breidurhundur,iseekalot,maybegfy,yoyo845,aspet53,throwawaymyfriend123,SafeSpace365,tramplers3,vajsodjaosd,Dmglugg,the_spermjacker,jerryjoenamethh,mostderisiveofsnorts,refrainfromupvoting,captainsmacks,Growapairppl,tausenyarike,wast3d_arm0r_,plainnsimpletruth,kljasgsgd,JohnnnyOnTheSpot,lololo2l480,frenzythecat,herlittlepalace,taway545,slap5,greenchairchair,williamwilliam2,wimminz_hk,ishigggydiggy,throwawy372463,moijesaislire,cuntholemcboogerball,onetime6,cuntholemcboogerball,bk_hotdog_man,RealityBitesU,Slinky182,assoa0oa0o,TrumpSJW,EMON87,Lord_Feltchley,jalopy222,lifestyleanalyst,Harlenrow,FoxForce5Iron,piece_of_steak,copiedop,duh_red_pill,ent_saint,en_maga,ashtonmarty,Dungeons_and_dongers,kingcosmo28,otterberg1,fat_handle,Growingupsucksthed,thowedthrowaway,JFP1999,Plplz,Joe_Bruin,protipforyou19,latteshuffle,iquoteyoubot,STOPYELLINGATMEOKAY,roided_void_asteroid,stralija,thread_lover,sagittamusic,2honest4relationship,McReg,theyatemummy,2honest4relationship,boobookeyz,KonstantineZelator,sramirez1516,zoe_quinns_taint,Orflarg,Whylus,Andrew13112001,blitzen-hahn,anotherone142,jupiterjones,anti_religulous,YoungDorianYates,throwaway24102015,fakethrow1427,pedodeconcha,Sasin607,ppaed,GoofysHowToFish,satisfiedlife,youarentanadult19,roided_void_asteroid,RockHardPlaceMeDone,tramplers4,ranci,the-virgin-sangria,Psimitry,makeshift98,Benthazaal,AdvocateForTulkas,5i5ththaccount,theseleadsalts,widec,t12totalxyzb00,RandomSurf1,Cristoff13,garlicextract,amagicbeanbuyer,silwhg,doqswol,ivanover,SuperFunkyButtloving,bartman11,ManFuckYourBitch,magamagnanimous,REAL_TALK_NIGGAH,PatrickP22,pistolpackinpedro,sirpizzal0t,fuckinpauper,kiwi_hunter,HOLDON_IMCOMBY,idontknowofficer,stubchub,TherealKernelsanders,roommateissues2,Tom-Jones_,G7980,Macintoshe,tramplers5,muscle-dilema,funkerton,hendo144,tchvoid,100gs,ListenUpMista,Hananoi,wightislight,KeepingTrack,thundertruck1,trump4king16,jmlhd,ithoughtsobitch,tavorni,HeinrichMuller,Shadow_on_the_Heath,managedImplosion,ToWhitandBeyond,H2015cane,ciarantrotman,stopscratchinurballs,falsethrowaway2016,thirdIy,PhataxTheKirillian,wtfdidijustread3,fryabeetus,Cheef_Kief,lightnotwight,thomascoopers,IMSkate,Areyoukiddingmebruh,fancyvaginasmile,dunnobitchasd,unfortunatelyalways,MyNisThrowaway2,LondonChapEightySix,numberh8,bscottj88,SimplePatickoh,Noushi88,HurbertMiller,Chapelofcouscous,evilgentleman,feelingveryconfused,feelingveryconfused2,FAKE483,throwaway31038123921,putuporshutitup,CervicalDestruction,throwaway468986,trollhunters123,PM_me_boobie_pic,wattagoodname,mikaelhg,killtheadminsviolent,ThisisNOTanacccount,Fuckyoufaggot233,Magnetic-Jewess,stackinbenjisbitch23,Marcusoftheaurelius,WebsiteCool3,Just2UpvoteU2,MagicMinister,alwaysunfortunately,ahubbs,ThrowAwayPleaseAway,tramplers6,mariestellamaris,Tsumirez,whoglyogglydoo,Mmontekristo,BrolestBrolin,Throwaway-8148,Dank-Bets,abuttlol,RelationshipAdvice89,cybervillian,drugsaregoodmmmkayy,whats_a_ze,vandykesdick,jellysenpai,lillymayann,BerateRedditForFun,needsomehalpls,banmek,maria1960,eat_fruit_not_flesh,Phototoxin,Clapboom,TheyCallMeFabian,NikoMyshkin,Blazed_Chef,pint_man,Usefuladvice713,Ninjaslumlord,hypnoZoophobia,yiukhj,gehche,Throwaway07082016,80204den,raleyss,rorevozi,Ireallyneedyourhelp1,Son_of_Berta_Lovejoy,NeedAdviceThrow420,Throwawayplzzzhelp,82Caff,oneoldgrumpywalrus,Throwaway729292,ManboyFancy,Post-ItsFromIwoJima,east_end,getfitfatfuck,Soupforbrunch,buddybiscuit,superthrowawaybuck,LamarcusJefferson,Truther_6969,SaucyLawyer,CynicalLaughter,XDforlife,WorkedOutSoWell,bernyourenemiescom,Angry_Comment_Bot,DJGammaRabbit,ImAnAlrightPerson,Schnauzer-Howitzer,Manzombie,Dinan328i,isshebeingserious,HallowedMoth147,1percentof1,kingpaint,Stipbeingababy,Theccisreal,4dogs4cats1goodlife,Killcommiescum,100jumpingbeans,Shinoobie,ytprankthrow,veronica393,SonnyBlack90,pinklips_highheels4,mycrazyldr,MermaidHeart,ovrit,trinityadams,deerintheheadlites,Cuck-a-doodle-doo19,madmaxturbator,Lala125,Og_barlord,Gamersworld1000,DG871902,Killiberalvol1,packattack1626,Phyzis,MANK-Enterprise,youareaman19,Corporal_Codpiece,wingers,Oldhaggardmess,hillyclit,Breakingbadbitch38,varorto,LifeSucksMEDead,Tomhet666,turn30left,dvelez1995,fahque,t1sh,arri_anne,slyn69,SeanCousins,InActuality,LameBond,WoodyBoner,tim10ral,mtgusa,Shameful_Lobster,jihadjeremy,HamHolocaust,snowcuo,MDG_10,JasonVoorhees__,DiceDemi,japangi,bestjokeev,TRIGGERER_WARRIOR,Baltazar_red,wrking4theclampdown,Ur_bio_dad,StopDating35YearOlds,bufedad,BobOndiss,randomesq1979,zegrindylows,210_MAGA,appreciateadvice,Fuck__Canada,AggieRick,GFW_Is_Trash,Killiberalvol1,Slave2Dick,loyolamountain34,Pinksugarrcookie,formerbully12,HoldThoseUpvotes,blowmishka,jimmyjamesjj,Whitebread420,aaronimpact,Blind_Sypher,dontruincornichons,WeakChinnedWhiteKid,EffYourUpvotes,dontruinvienna,tacopirate2589,rdb_gaming,NoRealsOnlyFeels,tanmanlando,doiclosure,M39913991,ThePlebMaster,Esdumby,Sykoe117,Gemini060696,MaddieD,Caeliger,WaitingOnVoat,DuckSmash,cosmicsaloon,TheGuchie,ProspectDikadu,Throwing_nails,LimberLoveMuscle,iseekalot,FFinalFantasyForever,OneMoreAcct,Triggcrfinger,riggorous,BigPigg,Natural_RP,Chemyst,sirtigs,the_anonymous_grrl,kettypisspants,friendescort19,PissyFinger,throwawayerqqwrq,TrumpLovesCocks,RainbowBuffy,FlashKincade,northwest_vae,HeroicHeist,crystaldad,Dear_John_FUCKMYFACE,ddhix,GhostinTokez,Elsa027,MyDramaAlt,anikoo2,brane44,jc_reddit,Jay2Timesss,grad_school_decision,DoubleDenimDuchess,MayorRudgutter,asfasfasf235234a,Kindreed180,oldbaeer,patrickmore79,BAVO888,LORD_SPARTACUS,r3mememember,Stheneleos,lmaoatwhitepeople,aussie_surfer_doctor,youngsaphire,TacoOMG,Hxhshhs,Mistiecottoncandy,Mistiecandygirl,literaljunkyard,spitinki,Gifofof,PussyMcGrabbins,ADVICEfromA-Z,Sandra747,sum_mac,WomenAreSociopaths,Pizzachu1,determined96,Swiffermom,Ghdyui34,Ghhnmnm,Throwaway009200,Bdjdkd,throwaway0395821,Jjjjj33,ooooo_my_tralala,insipid___worm,insipid__worm,insipid_worm,Assfunk33,laaaanaa,ukrkid,Igivecrapadvice,fck_u_lib,Vhifhj,Sheena4rae,sad_philosopher,Chxjkdd,sha777888,Smokenspectre,julybaby97,Its_Lala,pm_me_your_diarrhoea,zbeest,Dr_Sax,pippinandfrodo,stickerartist,Mikalh22,throwaway39287,orgawka,Dwarvenmasterrace,bobkeuntz,Michigan268,mooe1997,irishgirl249,Aluminum_Aluminium]
+    action: remove 
+    action_reason: Shadowban - {{match}}
+    
+
+---
+
+
+    #TL;DR check
+    type: submission
+    body: "**tl;dr**: Mandatory summary/question!"
+    action: report
+    report_reason: "Not really a TL;DR summary"
+
+
+---
+
+
+    # Slur Gray List
+    title+body: [/b/, 4chan, AF/BB, AFC, alpha, AMOG, ASD, AWALT, Bernie, beta, biatch, bimbo, bitch, bitches, bullied, bully, cache, cached, carosel, carousel, Clinton, cock, cocksucker, covert, crackwhore, Cruz, cuck, cucked, cuckhold, cuckold, cucks, cunt, cука, dck, DHV, dick, dickwad, DLV, Donald, downvote, dread game, dread game, Drumpf, faggot, fatass, fatfuck, fatso, fattie, fatty, feminazi, fuck boy, fuck-boi, fuck-boy, fuckboi, fuckboy, funeral director, google cache, hambeast, hamplanet, hamster, hamstering, harpie, harpy, Hillary, ho, hoe, hoes, hypergamous, hypergamy, incel, incest, jayde, kek, kill her, kill him, kill your, kill yourself, kuk, lardass, mansplaining, m0d, m0derator, m0derators, m0ds, man child, man up, woman up, man-child, man-up, manchild, Mandingo, mansplain, Mens Rights, MGTOW, mod, moderators, mods, MRA, MRP, neckbeard, nigga, nigger, niqqer, oneitis, orbiter, plate theory, prick, pussies, pussy, rape, rapey, retard, retarded, Sanders, schlong, sexual abuse, sexual assault, sexually abused, sexually abusing, sexually harassed, shit test, SJW, skank, slut, SMV, solipsism, sooka, starfish, starfishing, suicidal, suicide, t''was, tard, The Blue Pill, the genders, The Red Pill, tranny, TRP, trucel, tumblrina, twat, upvote, white knight, white-knight, whore]
+    action: report
+    report_reason: "Slur Check - [{{match}}]"
+
+---
+
+
+    # Slur-evasion Gray List, message JSBA
+    #title+body (includes, regex): ["c *u *n *t", "c *u* c* k*"]
+    #action: report
+    #report_reason: "Slur-evasion Check - {{match}}"
+
+
+---
+    
+    # Money request check
+    title+body (includes, regex): "$[0-9]"
+    action: report
+    report_reason: "Requesting money? - [{{match}}]"
+
+---
+
+    #Anti-Moderator Removal
+    type: submission
+    title+body (regex, includes-word): ["m0ds","m0derators","m0d","m0derator"]
+    action: remove
+
+---
+
+    #Moderator Anti-Trolling
+    author:
+        name (includes, regex): [KittyMonster, Sommiel, Exis007, AyeAyeCaptain, CoomassieBlue, JustSomeBadAdvice, dcolt, Relationships_Mods, MysticJAC, autumnx, oceanicairlines, anjufordinner, JustWordsInYourHead, Spectrum2081, railroadbaron, eshtive353, dinosaur_train, beaglemama, IranianGenius, Made_you_read_penis, Modmail_Archivist, notobiko, Happyendings4all, Ethelfleda, ofthrees, HelgaTwerpknot, aaronth07, LimeyTart, Drigr, Lexilogical, NaughtyCrayola, OPisobviouslytrollin, nero4983, Sir__Hippo, Lady_Hippo, dorothy_zbornak_esq, LazyG, sjrsimac]
+        is_moderator: FALSE
+    action: remove
+
+---
+
+    #User with too many down-votes autoremoval
+    type: comment
+    author:
+        comment_karma: "< -50"
+        is_moderator: FALSE
+        is_submitter: FALSE
+    title+body: [/b/, 4chan, AF/BB, AFC, alpha, AMOG, ASD, AWALT, Bernie, beta, biatch, bimbo, bitch, bitches, bullied, bully, cache, cached, carosel, carousel, Clinton, cock, cocksucker, covert, crackwhore, Cruz, cuck, cucked, cuckhold, cuckold, cucks, cunt, cука, dck, DHV, dick, dickwad, DLV, Donald, downvote, dread game, dread game, Drumpf, faggot, fatass, fatfuck, fatso, fattie, fatty, feminazi, fuck boy, fuck-boi, fuck-boy, fuckboi, fuckboy, funeral director, google cache, hambeast, hamplanet, hamster, hamstering, harpie, harpy, Hillary, ho, hoe, hoes, hypergamous, hypergamy, incel, incest, jayde, kek, kill her, kill him, kill your, kill yourself, kuk, lardass, mansplaining, m0d, m0derator, m0derators, m0ds, man child, man up, woman up, man-child, man-up, manchild, Mandingo, mansplain, Mens Rights, MGTOW, mod, moderators, mods, MRA, MRP, neckbeard, nigga, nigger, niqqer, oneitis, orbiter, plate theory, prick, pussies, pussy, rape, rapey, retard, retarded, Sanders, schlong, sexual abuse, sexual assault, sexually abused, sexually abusing, sexually harassed, shit test, SJW, skank, slut, SMV, solipsism, sooka, starfish, starfishing, suicidal, suicide, t''was, tard, The Blue Pill, the genders, The Red Pill, tranny, TRP, trucel, tumblrina, twat, upvote, white knight, white-knight, whore]
+    action: remove
+
+---
+
+    #User with too many down-votes autoremoval
+    type: comment
+    author:
+        comment_karma: "< -80"
+        is_moderator: FALSE
+        is_submitter: FALSE
+    action: remove
+
+---
+
+    #User with new account autoremoval
+    type: comment
+    author:
+        account_age: < 60 days
+        is_moderator: FALSE
+        is_submitter: FALSE
+    title+body: [/b/, 4chan, AF/BB, AFC, alpha, AMOG, ASD, AWALT, Bernie, beta, biatch, bimbo, bitch, bitches, bullied, bully, cache, cached, carosel, carousel, Clinton, cock, cocksucker, covert, crackwhore, Cruz, cuck, cucked, cuckhold, cuckold, cucks, cunt, cука, dck, DHV, dick, dickwad, DLV, Donald, downvote, dread game, dread game, Drumpf, faggot, fatass, fatfuck, fatso, fattie, fatty, feminazi, fuck boy, fuck-boi, fuck-boy, fuckboi, fuckboy, funeral director, google cache, hambeast, hamplanet, hamster, hamstering, harpie, harpy, Hillary, ho, hoe, hoes, hypergamous, hypergamy, incel, incest, jayde, kek, kill her, kill him, kill your, kill yourself, kuk, lardass, mansplaining, m0d, m0derator, m0derators, m0ds, man child, man up, woman up, man-child, man-up, manchild, Mandingo, mansplain, Mens Rights, MGTOW, mod, moderators, mods, MRA, MRP, neckbeard, nigga, nigger, niqqer, oneitis, orbiter, plate theory, prick, pussies, pussy, rape, rapey, retard, retarded, Sanders, schlong, sexual abuse, sexual assault, sexually abused, sexually abusing, sexually harassed, shit test, SJW, skank, slut, SMV, solipsism, sooka, starfish, starfishing, suicidal, suicide, t''was, tard, The Blue Pill, the genders, The Red Pill, tranny, TRP, trucel, tumblrina, twat, upvote, white knight, white-knight, whore]
+    action: remove
+    action_reason:  Account Age - {{match}}
+
+---
+
+    #Minimum comment length threshold
+    type: comment
+    author:
+        is_moderator: FALSE
+        is_submitter: FALSE
+    body_shorter_than: 30
+    title+body: [/b/, 4chan, AF/BB, AFC, alpha, AMOG, ASD, AWALT, Bernie, beta, biatch, bimbo, bitch, bitches, bullied, bully, cache, cached, carosel, carousel, Clinton, cock, cocksucker, covert, crackwhore, Cruz, cuck, cucked, cuckhold, cuckold, cucks, cunt, cука, dck, DHV, dick, dickwad, DLV, Donald, downvote, dread game, dread game, Drumpf, faggot, fatass, fatfuck, fatso, fattie, fatty, feminazi, fuck boy, fuck-boi, fuck-boy, fuckboi, fuckboy, funeral director, google cache, hambeast, hamplanet, hamster, hamstering, harpie, harpy, Hillary, ho, hoe, hoes, hypergamous, hypergamy, incel, incest, jayde, kek, kill her, kill him, kill your, kill yourself, kuk, lardass, mansplaining, m0d, m0derator, m0derators, m0ds, man child, man up, woman up, man-child, man-up, manchild, Mandingo, mansplain, Mens Rights, MGTOW, mod, moderators, mods, MRA, MRP, neckbeard, nigga, nigger, niqqer, oneitis, orbiter, plate theory, prick, pussies, pussy, rape, rapey, retard, retarded, Sanders, schlong, sexual abuse, sexual assault, sexually abused, sexually abusing, sexually harassed, shit test, SJW, skank, slut, SMV, solipsism, sooka, starfish, starfishing, suicidal, suicide, t''was, tard, The Blue Pill, the genders, The Red Pill, tranny, TRP, trucel, tumblrina, twat, upvote, white knight, white-knight, whore]
+    action: remove
+
+---
+
+    #Minimum comment length threshold
+    type: comment
+    author:
+        is_moderator: FALSE
+        is_submitter: FALSE
+    body_shorter_than: 20
+    action: remove
+
+---
+
+    #Troll Message
+    type: comment
+    url+body (starts-with): [troll]
+    message_subject: "Please report troll posts and comments"
+    message: | 
+        Your [{{kind}}]({{permalink}}) in /r/{{subreddit}} appears to be identifying a post or comment as a troll.  We ask that you please take a moment to report this content             instead of simply leaving such a remark as it's the only way to ensure that the comment or post is quickly evaluated by moderators for possible removal. 
+        
+        Thank you for your time and help!
+
+---
+
+    # Remove fat fetish posts
+    type: submission
+    title (includes-word): ["fat fetish"]
+    action: remove
+
+---
+
+    # Wedding Troll
+    type: submission
+    title+body (regex, includes-word): ["Wedding","Matrimony","Officiant"]
+    action: report
+    report_reason: "Wedding Submission"
+
+---
+
+#THESE RULES COME FROM THE AUTOMOD LIBRARY ALREADY WRITTEN
+#https://www.reddit.com/r/AutoModerator/wiki/library
+
+---
+#REMOVES PHONE NUMBER TO PREVENT DOXXING
+---
+    title+body (regex): ["\\(?(\\d{3})\\)?([ .-])(\\d{3})([ .-])(\\d{4})","(\\d{5})([ .-])(\\d{6})","\\(?(\\d{4})\\)?([ .-])(\\d{3})([ .-])(\\d{3})","\\(?(\\d{2})\\)?([ .-])(\\d{4})([ .-])(\\d{4})","\\(?(\\d{2})\\)?([ .-])(\\d{3})([ .-])(\\d{4})","\\+([\\d ]{10,15})"]
+    ~body+url (regex): "(\\[[^\\]]+?\\]\\()?(https?://|www\\.)\\S+\\)?"
+    ~body+title+url (regex): ["(800|855|866|877|888|007|911)\\W*\\d{3}\\W*\\d{4}", "\\d{3}\\W*555\\W*\\d{4}", "999-999-9999", "000-000-0000", "123-456-7890", "111-111-1111", "012-345-6789", "888-888-8888", "281\\W*330\\W*8004", "777-777-7777", "678-999-8212", "999([ .-])119([ .-])7253","0118 999 811","0118 999 881", "867( -)?5309", "505\\W*503\\W*4455", "1024 2048"]
+    action: remove
+    modmail_subject: Doxxing Alert!
+    modmail: |
+
+        {{permalink}}
+
+        The above {{kind}} by /u/{{author}} was removed because it contained a possible phone number. Please investigate immediately.
+
+        If the user is doxxing, [ban them](/r/{{subreddit}}/about/banned) and [report them to the reddit admins](http://www.reddit.com/message/compose?to=%2Fr%2Freddit.com&subject=Doxxing%20Report:%20%2Fu%2F{{author}}&message=%2Fu%2F{{author}}%20posted%20a%20phone%20number:%20{{permalink}}) immediately.
+    Action_Reason: Dox - Phone Number - {{match}}
+
+---
+#REMOVES EMAILS TO PREVENT DOXXING
+#~title+body#whitelist: [] IS A WHITELIST FOR APPROVED EMAILS
+---
+    title+body (regex): "[!#$%&'*+./0-9=?_`a-z{|}~^-]+@[.a-z-]+\\.(?:com|org|net)"
+#    ~title+body#whitelist: [OKemail1@domain.com, OKemail2@domain.com]
+    action: remove
+    modmail_subject: Doxxing Alert!
+    modmail: |
+
+        {{permalink}}
+
+        The above {{kind}} by /u/{{author}} was removed because it contained a possible email address. Please investigate immediately.
+
+        If the user is doxxing, [ban them](/r/{{subreddit}}/about/banned) and [report them to the reddit admins](http://www.reddit.com/message/compose?to=%2Fr%2Freddit.com&amp;subject=Doxxing%20Report:%20%2Fu%2F{{author}}&message=%2Fu%2F{{author}}%20posted%20an%20email%20address:%20{{permalink}}) immediately.
+    
+    Action_Reason: Dox - Email - {{match}}
+
+---
+#REMOVES CREDIT CARD NUMBERS TO PREVENT DOXXING
+---
+    title+body (regex): "\\b(?:4[0-9]{12}(?:[0-9]{3})?|5[12345][0-9]{14}|3[47][0-9]{13}|3(?:0[012345]|[68][0-9])[0-9]{11}|6(?:011|5[0-9]{2})[0-9]{12}|(?:2131|1800|35[0-9]{3})[0-9]{11})\\b"
+    action: remove
+    modmail_subject: Doxxing Alert!
+    modmail: |
+
+        {{permalink}}
+
+        The above {{kind}} by /u/{{author}} was removed because it contained a possible credit card number. Please investigate immediately.
+
+        If the user is doxxing, [ban them](/r/{{subreddit}}/about/banned) and [report them to the reddit admins](http://www.reddit.com/message/compose?to=%2Fr%2Freddit.com&amp;subject=Doxxing%20Report:%20%2Fu%2F{{author}}&message=%2Fu%2F{{author}}%20posted%20a%20credit%20card%20number:%20{{permalink}}) immediately.
+    
+    Action_Reason: Dox - CC# - {{match}}
+
+---
+#REMOVES IP ADDRESSES TO PREVENT DOXXING
+---
+    title+body (regex): "\\b[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\b"
+    action: remove
+    modmail_subject: Doxxing Alert!
+    modmail: |
+        {{permalink}}
+
+        The above {{kind}} by /u/{{author}} was removed because it contained a possible IP address. Please investigate immediately.
+
+        If the user is doxxing, [ban them](/r/{{subreddit}}/about/banned) and [report them to the reddit admins](http://www.reddit.com/message/compose?to=%2Fr%2Freddit.com&amp;subject=Doxxing%20Report:%20%2Fu%2F{{author}}&message=%2Fu%2F{{author}}%20posted%20an%20IP%20address:%20{{permalink}}) immediately.
+        
+    Action_Reason: Dox - IP - {{match}}
+---
+#REMOVES STREET ADDRESSES TO PREVENT DOXXING
+---
+#    title+body (regex): ["\\W[A-Za-z]?\\d{1,6}[A-Za-z]? (E(\\.|ast)?|W(\\.|est)?|N(\\.|orth)?|S(\\.|outh)? )?[\\p{Pi}\\p{Pf}]?\\w+( \\w+)?[\\p{Pi}\\p{Pf}]? (st(reet)?|ave(enue)?|r(oa)?d|dr(ive)?|c(our)?t|blvd|boulevard|lane|ln|highway|hwy|route|rt)"]
+#    ~title+body#whitelist: [second drive, minute drive, hour drive, day drive, week drive, gb drive, tb drive, 123 Main St, 123 Main Street, 221b baker st, 221b baker street]
+#    action: remove
+#    modmail_subject: Doxxing Alert!
+#    modmail: |
+#        {{permalink}}
+#
+#        The above {{kind}} by /u/{{author}} was removed because it contained a possible street address. Please investigate immediately.
+#
+#        If the user is doxxing, [ban them](/r/{{subreddit}}/about/banned) and [report them to the reddit admins](http://www.reddit.com/message/compose?to=%2Fr%2Freddit.com&amp;subject=Doxxing%20Report:%20%2Fu%2F{{author}}&amp;message=%2Fu%2F{{author}}%20posted%20a%20street%20address:%20{{permalink}}) immediately.
+#    
+#    Action_Reason: Dox - Address - {{match}}
+
+   
+ 

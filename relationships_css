@@ -1,0 +1,1230 @@
+/*! ~~ Mindashq.Reddit.Theme
+	v1.8.2
+	http://www.reddit.com/r/mindashq/wiki
+	To copy and reuse, use the information from http://www.reddit.com/r/mindashq/wiki/usage
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* do NOT copy/paste from here, read http://www.reddit.com/r/mindashq/wiki/usage */
+/*! [ A ]. Normal Theme............ */
+body{position:relative;background-color:#eeeeec;color:#00000a;font-weight:400;font-style:normal;font-variant:normal;font-family:Helvetica,Arial,sans-serif;line-height:1.4}.md h1,.md h2{margin-bottom:6px}.md h3,.md h4{margin-bottom:3px}.md h1{font-weight:400;font-size:1.8em}.md h2{font-weight:400;font-size:1.6em}.md h3{font-weight:400;font-size:1.4em}.md h4{font-weight:400;font-size:1.3em}.md h5,.md h6{font-weight:400;font-size:1.2em}.thing a.title,a{color:#144ddd}.thing a.title,.thing a.title.loggedin{color:#144ddd}.thing a.title.loggedin.click:visited,.thing a.title.loggedin:visited,.thing a.title:visited{color:#5e5e5e}.thing a.title.loggedin:hover,.thing a.title:hover,a:hover{color:#353a3e;text-decoration:none}.content .md a:visited,div.comment .md p>a:visited{color:#a409aa}.rounded{border-radius:2px}.content.submit .roundfield.info-notice,.linefield,.roundfield{border-radius:0;background-color:#eee;box-shadow:0 0 1px 1px #ddd}.linefield input[type=password],.linefield input[type=text],.linefield textarea,.roundfield input[type=number],.roundfield input[type=password],.roundfield input[type=text],.roundfield input[type=url],.roundfield textarea{border-color:#ccc;box-shadow:0 1px 4px 1px #ddd}.md:not(.wiki){max-width:60em;color:#00000a}.help blockquote,.md blockquote{margin-left:5px;padding:1px 1px 1px 15px;max-width:60em;border:1px solid #ccc;border-width:0 0 0 1px}.md hr{height:1px;border:0 none;background-color:#d2d2d2;color:#ccc}.md table{margin:10px 0;border:1px solid #ccc;border-width:1px 0 1px 1px}.md table *{border:0}.md table th{text-align:center}.md table thead{border-bottom:1px solid #ccc;background-color:#f3f3f3}.md table tbody tr:nth-child(odd){background-color:#f9f9f7}.md table tbody tr:nth-child(even){background-color:#f6f6f6}.md table td,.md table th{padding:4px 8px;border-right:1px solid #ccc}.md ol,.md ul{margin:5px 0 5px 20px;padding:0 0 0 10px;max-width:60em;background-color:transparent}.md ul{list-style:disc outside}.md ol li,.md ul li{margin:1px 10px 0 0;padding:2px 0;font-size:100%;line-height:1.3}.md ol li ol,.md ul li ul{margin:5px 0 5px 10px}.md ol li p,.md ul li p,.wiki-page .wiki-page-content .md.wiki ol li p,.wiki-page .wiki-page-content .md.wiki ul li p{margin:2px}.md pre{overflow:auto;margin:10px 0;padding:10px;border:1px solid #ccc;background:#fbf9f4!important;color:#222!important}.md pre code{padding:0;border:0 none;background:0 0;font-size:.8em}.md code{padding:2px 3px;border:1px solid #ccc;background-color:#fbf9f4;color:#222;font-size:.8em;font-family:Consolas,Monaco,'Courier New',monospace}a[href='#s'],a[href='/s']{display:inline-block;padding:0 4px;background-color:#acd9fc;color:#2154a3;cursor:default}a[href='#s']:after,a[href='/s']:after{visibility:visible;margin-left:5px;padding:2px 3px;background-color:#5ba2fd;color:#5ba2fd;content:attr(title);font-size:small}a[href='#s']:active:after,a[href='#s']:hover:after,a[href='/s']:active:after,a[href='/s']:hover:after{color:#fff;text-decoration:none;font-size:small}.btn .button,.btn button{margin:0 0 0 20px}.entry .flat-list li a[onclick*=reply]{display:inline-block;margin:-5px 5px 0 0;padding:2px 5px 1px;min-width:30px;border:1px solid #e6e6e6;border-radius:2px;background-color:#fafafa;color:#4d90fe;text-align:center;text-decoration:none;text-shadow:none;font-size:11px;line-height:1.4;cursor:pointer}.entry.RES-keyNav-activeElement ul.flat-list li a[onclick*=reply],.entry:hover ul.flat-list li a[onclick*=reply]{border-color:#357ae8!important;background-color:#5ba2fd;background-image:linear-gradient(#5ba2fd,#4b8adb)!important;color:#fff!important}.BEFoot button,.btn,.button,.res #searchexpando>.searchexpando-submit>input[type=submit],a[href*='#btn'],button.blueButton,button.save,button[type=submit],input[type=submit] :not(#search){margin:1px 5px 2px 0;padding:6px 10px!important;min-width:70px;height:auto!important;border:1px solid #357ae8!important;border-radius:2px;background-color:#5ba2fd!important;background-image:linear-gradient(#5ba2fd,#4b8adb)!important;color:#fff;text-decoration:none;text-shadow:1px 1px 2px #2154a3;font-weight:700;font-size:13px;cursor:pointer}.btn a{color:#fff}.BEFoot button:hover,.btn:hover,.button:hover,.entry ul.flat-list li a[onclick*=reply]:hover,.res #searchexpando>.searchexpando-submit>input[type=submit]:hover,.res a[href*='#btn']:hover,a[href*='#btn']:hover,button.blueButton:hover,button.save:hover,button[type=submit]:hover,input[type=submit]:hover :not(#search){border-color:#08c;background-color:#357ae8;background-image:linear-gradient(#4d90fe,#357ae8)!important;color:#fff}.btn.right,.usertext span[class*=toggle],a.reddiquette,button.cancel{padding:2px 5px;border-width:0!important;background:none transparent!important;font-size:small!important}#url-field button,.btn.right a,.content button.RESBigEditorPop,.usertext span[class*=toggle] a,a.reddiquette,button.cancel,span.RESSubscriptionButton{border:0!important;background-color:transparent!important;box-shadow:none;color:#888;text-decoration:underline;text-shadow:none;font-weight:700}#url-field button:hover,.btn.right a:hover,.content button.RESBigEditorPop:hover,.usertext span[class*=toggle] a:hover,a.reddiquette:hover,button.cancel:hover,span.RESSubscriptionButton:hover{background-color:transparent!important;color:#5ba2fd}a[href*='#btn']{display:block;margin:10px 0;width:auto;color:#fff!important;text-align:center;letter-spacing:0;font-size:12px;line-height:29px}.thing a[href*='#btn']{display:inline-block;margin:0}.entry .flat-list{display:inline-block}.entry .flat-list .redditSingleClick,.entry .flat-list li a,.entry .flat-list li a:visited{color:silver}.entry.RES-keyNav-activeElement .flat-list .redditSingleClick,.entry.RES-keyNav-activeElement .flat-list li a,.entry:focus>.flat-list .redditSingleClick,.entry:focus>.flat-list li a,.entry:hover>.flat-list .redditSingleClick,.entry:hover>.flat-list li a,.noncollapsed:hover>.flat-list li a{color:#777}.entry .flat-list li a.comments{color:#144ddd}#header{z-index:99;margin:0 0 30px;height:auto;background-color:#fff;box-shadow:0 3px 3px -1px #ddd}#header:after{position:absolute;bottom:-1px;z-index:-1;display:block;width:100%;height:30px;border:1px solid;border-width:1px 0;content:' '}#header:after,.bottommenu:before{border-color:#8ccbfc;background-color:#acd9fc;background-image:linear-gradient(#acd9fc,#8ccbfc)}#sr-header-area{padding:0 0 0 5px;height:20px;border-color:#fff;background-color:#fff;color:#acd9fc;color:#555;font-weight:500;font-size:11px;line-height:20px;opacity:.4}#sr-header-area .separator{display:inline-block;margin:0;width:8px;text-align:center}#sr-header-area>.separator{margin:0 7px 0 2px}#sr-header-area:hover{opacity:1}#sr-header-area a,#sr-header-area span{color:inherit}#sr-header-area a:hover{color:#357ae8}div#RESShortcutsEditContainer{background:none #fff;color:inherit;font-family:Consolas,Monaco,'Courier New',monospace}#header #RESShortcuts,#header #RESShortcutsAdd,#header #RESShortcutsLeft,#header #RESShortcutsRight,#header #RESShortcutsSort,#header #RESShortcutsTrash,#header #RESStaticShortcuts,#header #srLeftContainer,#srDropdown{background:none transparent!important;color:inherit}#sr-more-link{background-color:#f9f9f7;color:#1d1212}.drop-choices,div#RESSubredditGroupDropdown,table#srList{padding:0!important;border:1px solid #acd9fc!important;background-color:#eaf4fc;color:#2154a3;font-size:12px}.drop-choices h2{margin:0 0 5px!important;padding:5px 0;background:#acd9fc!important;color:#369!important;text-shadow:none!important;font-size:14px!important}div#RESSubredditGroupDropdown li{padding:5px 0}#sr-header-area a.choice,div#RESSubredditGroupDropdown li a,table#srList a{padding:2px;color:#2154a3}#sr-header-area a.choice:hover,.drop-choices a.choice:hover,div#RESSubredditGroupDropdown li:hover,table#srList a:hover,table#srList tr:hover{background-color:#acd9fc}.srdrop .choice.bottom-option,table#srList tr{border-color:#acd9fc}.menuarea .drop-choices a.choice{padding:5px 10px;font-size:1.2em}.flairselector form{padding:2px 0 5px;border-color:#acd9fc}.flairoptionpane,.flairselector li{margin:5px 0;border:0}#header-bottom-right{top:auto!important;bottom:0!important;padding:7px 10px 3px!important;height:20px!important;border-radius:0!important;background-color:#acd9fc;background-image:linear-gradient(#acd9fc,#8ccbfc)}#header-bottom-right a,#header-bottom-right span{color:#2154a3}#header-bottom-right:hover{background-color:#eaf4fc;background-image:linear-gradient(#eaf4fc,#eaf4fc)}#header-bottom-right:hover a,#header-bottom-right:hover span{text-shadow:0 -1px 0 #eee,0 1px 0 #fff}#header-bottom-right .logout,#header-bottom-right .user{font-weight:700}#RESSettingsButton{vertical-align:middle}#header-bottom-left{position:relative;bottom:0;display:inline-block;margin:0;background-color:transparent}.pagename{position:static!important;display:inline-block;margin:0;color:#2154a3;vertical-align:middle;font-weight:700;font-variant:normal}.pagename a,.pagename.selected{display:inline-block;margin:0 0 -5px 0;padding:9px 15px;border-color:#357ae8;border-radius:2px;background-color:#5ba2fd;background-image:linear-gradient(#5ba2fd,#4b8adb);box-shadow:-2px 4px 4px -2px #bbb;color:#fff;text-shadow:0 1px 0 #333;font-size:16px!important}.pagename a:hover{border-color:#08c;background:none #357ae8;background-image:linear-gradient(#4d90fe,#357ae8);text-decoration:none}#header-img.default-header{margin:15px 15px 0 25px;min-width:75px;width:auto;background-position:-10000px -2058px;color:#2154a3;vertical-align:bottom;text-align:right;text-indent:0;font-weight:700;font-size:12px;line-height:50px}.with-listing-chooser #header-img.default-header{min-width:110px}#header-img-a{display:inline-block;margin:15px -3px -5px 35px;padding:0;height:40px;border-top-left-radius:2px;border-bottom-left-radius:2px;background-color:#acd9fc;box-shadow:2px 4px 4px -2px #bbb;vertical-align:bottom}#header-img-a img{margin:0;padding:0;max-height:40px;width:auto!important;height:auto!important;border-top-left-radius:2px;border-bottom-left-radius:2px}#header-img-a+.pagename a,#header-img-a+.pagename.selected{border-top-left-radius:0;border-bottom-left-radius:0}ul.tabmenu{margin:15px 10px -17px 35px;height:50px;border:0 none}ul.tabmenu li{margin:auto}ul.tabmenu li a,ul.tabmenu li a:visited,ul.tabmenu li.selected a{display:inline-block;padding:8px;background:none transparent;color:#2154a3}ul.tabmenu li a:hover,ul.tabmenu li.selected a:hover{background-color:#eaf4fc;color:#1d1212;text-shadow:none}ul.tabmenu li.selected a,ul.tabmenu li.selected a:hover,ul.tabmenu li.selected a:visited{padding:9px 15px;border:1px solid #8ccbfc;border-radius:2px;background-color:#f9f9f7;background-image:none;color:#ff910b}div.content{overflow:hidden;margin:0 20px 10px 25px;padding:10px 20px;border:1px solid #fbfbfb;background-color:#fefefd;box-shadow:0 1px 3px 1px #ccc}body.listing-page>div.content,body.messages-page>div.content,body.search-page>div.content,body.single-page>div.content{padding:0;border:0 none;background-color:transparent;box-shadow:none}body.single-page>div.content>.linklisting .link{padding:5px 0 5px 10px;background:none #fff}body.single-page>div.content>.linklisting .link .rank{display:none}.panestack-title{overflow:hidden;margin:0 5px 0;padding:10px 20px;border:1px solid #fff;background-color:#f9f9f9;box-shadow:0 1px 3px 0 #cdcdcd;font-size:larger}.panestack-title .title{color:#888}.commentarea .menuarea{margin:1px 5px!important;padding:10px 25px;background-color:#f9f9f9;box-shadow:0 1px 3px 0 #cdcdcd}.messages-page .menuarea,.profile-page .menuarea,.related-page .panestack-title,.search-page .menuarea{margin:20px 5px -6px!important;padding:10px 10px 10px 15px;background-color:#f9f9f9;box-shadow:0 1px 3px 0 #cdcdcd;font-size:14px}p.tagline{margin:2px;font-size:11px}p.tagline span span{margin-right:2px;margin-left:2px}.tagline a{color:#555}.tagline a:hover{color:#4d90fe;text-decoration:none}.res .thing .tagline .author.friend,.res .thing .tagline .author.moderator,.res .thing .tagline .author.submitter{padding:3px 5px 1px}#noresults{margin-right:310px;padding:5px 10px;font-weight:700}.nav-buttons{margin:10px 0}.usertext.cloneable{margin:0 -6px 1px;padding:20px;border:1px solid #fff;background:#eeeeec}.commentarea>.usertext.cloneable{margin:0 5px;border-width:0 1px 1px;background-color:#f9f9f9;box-shadow:0 2px 3px 0 #cdcdcd}div.usertext-edit textarea{padding:5px;border:1px solid #ccc}.formtabs-content{padding:0;border-color:#5ba2fd!important}.formtabs-content .infobar{padding:10px}ul.tabmenu.formtab{margin:15px 0 0;height:auto}ul.tabmenu.formtab li a{margin:0 1px 1px;padding:5px 15px;border-width:0;background-color:#acd9fc}ul.tabmenu.formtab li.selected a,ul.tabmenu.formtab li.selected a:hover{margin:0;padding:5px 20px;border:0;border-bottom-right-radius:0;border-bottom-left-radius:0;background-color:#5ba2fd!important;box-shadow:none;color:#eaf4fc;font-weight:700}.expando-button,.thing .expando-button.image,.thing div.expando-button,.thing div.expando-button.collapsed{margin:0 25px 0 0!important;padding:0!important;width:0!important;height:15px!important;background:none transparent!important;cursor:pointer}.expando-button:before{position:absolute;display:block;margin:0 5px 0 0!important;padding:1px 4px 3px;width:10px!important;height:10px!important;border:1px solid #ddd;border-radius:2px;background-color:#efefe8;color:#999;vertical-align:top;text-align:center;cursor:pointer}.expando-button.selftext.collapsed:before{content:'✚'}.expando-button.selftext.expanded:before{content:'▪▪'}.expando-button.video-muted.collapsed:before,.expando-button.video.collapsed:before{content:'▶'}.expando-button.video-muted.expanded::before,.expando-button.video.expanded:before{content:'●'}.expando-button.image.collapsedExpando:before{content:'❏'}.expando-button.image.expanded:before{content:'❐'}.expando-button:hover:before{border-color:#555;background-color:#555;box-shadow:0 0 4px -2px #333;color:#eee}.expando-button.expanded:before{border:0;background:#8fcbfc;color:#fff}.res .md .expando-button.image,.res .parent .expando-button.image{margin:0 5px!important;width:20px!important;font-size:.9em;line-height:1.1}.organic-listing{margin:0 5px}.organic-listing .entry:hover{border:0!important}.organic-listing,.thing.link.promoted,.thing.link.stickied{overflow:hidden;padding:0;border-color:#fff;background:none #edf5ff;box-shadow:0 1px 3px 0 #ccb}.thing.link.stickied{background:none #fffeed}.thing.link.stickied a.title{color:#50722b}.listing-page .link.stickied{margin:0 0 10px!important;border-width:1px 0 1px 1px}.linklisting .thing,.search-result{overflow:hidden;margin:0;padding:0;border:1px solid #fff;border-width:1px 0;background-color:#fefefd;box-shadow:0 1px 3px 0 #cdcdcd}.linklisting .compressed.thing{padding:3px 0 0}.link.last-clicked{background-color:#f5f5f5;background-image:linear-gradient(#f8f8f8,#f5f5f5)}.linklisting .link.self .domain{display:none}.link .expando{margin:0}.linklisting div.thing.comment{margin:0 0 5px!important;padding:5px 0 5px 10px!important;font-size:11px}.gold-accent.comment-visits-box{margin:10px 5px 5px}.sitetable{padding:5px}.sitetable .sitetable{padding:0}.link .rank{margin:14px 0 0 5px;padding:10px 5px 0;background-color:transparent;color:#ccb;text-align:right;font-size:small}.link.compressed .rank{margin-top:5px}.link .midcol{margin:10px 10px 0}.link.compressed .midcol{margin:5px}.thumbnail{margin:6px 10px 5px 0}.thumbnail.default,.thumbnail.self{display:none}.listing-page .thumbnail:not(.nsfw){max-height:60px}.entry{margin:0;padding:8px 5px 2px}.compressed .entry{padding:2px 5px 2px 2px}.comment.collapsed .entry{padding:8px 5px 6px}.link .title{overflow:visible;margin:0 5px 5px 0;font-size:125%;line-height:1.3}.link.compressed .title{margin:-1px .4em 1px 0;font-size:123%}.link .usertext .md{padding-right:15px;border:0;background:0 0}.combined-search-page #search input[type=text]{border:1px solid #e3e3e3;font-size:1.5em}.combined-search-page .search-result-group{padding:0 10px;max-width:none}.combined-search-page .search-result-group .search-result-group-header{margin:20px 0 0}.combined-search-page .search-result{margin:0;padding:5px 10px 5px 20px}.combined-search-page .search-result .search-result-body,.combined-search-page .search-result .search-result-header{margin:10px 0 0}.combined-search-page .searchfacets{margin:15px;max-width:none;border:0}.arrow:not(.prev):not(.next){background:none transparent!important;color:#aaa;text-align:center;font-weight:400;font-size:120%;line-height:.8}.arrow.up:after,.arrow.upmod:after{content:'▲'}.arrow.down:after,.arrow.downmod:after{content:'▼'}.arrow.upmod:after{color:#ff4900}.arrow.downmod:after{color:#9aa8f2}.arrow.down:hover:after{color:#4d90fe}.arrow.up:hover:after{color:#ff4900}.compressed .arrow:not(.prev):not(.next){margin:1px 0}.link .score{color:#555}.link .score.likes{color:#ff4900}.link .score.dislikes{color:#9aa8f2}.commentarea{margin-top:5px}.comment .score,.commentarea p.tagline{margin-left:-2px;font-size:11px}.nestedlisting>div.comment{overflow:hidden;margin:0 0 3px;border:1px solid #e0e0e0;background-color:#fcfcfb}.comment{margin-left:0}.comment .collapsed{padding:2px 0 0;font-style:normal;font-size:11px}.comment a.expand{padding:2px}.comment a.expand:hover{color:#4d90fe;text-decoration:none}.comment .midcol{margin:10px 5px;width:15px!important;font-size:130%}.comment .child{margin:2px 0 0 30px;border-color:#e6e6e6}.comment .showreplies{margin:2px 0 10px 30px;border:0;font-weight:700}.morechildren a.button,.morerecursion .deepthread,.nextprev a,.showreplies{display:inline-block;margin:0;padding:0!important;border-width:0!important;background:none transparent!important;color:#4d90fe!important;text-shadow:1px 1px 2px #eee;font-weight:700}.new-comment .usertext-body{margin:0 0 5px;padding:0 10px}.res-commentBoxes .child{margin:1px 0 -1px 5px;padding:0;border:0;background:none transparent!important}.res-commentBoxes .morechildren,.res-commentBoxes .morerecursion{margin:-9px 0 -4px -20px}.nextprev a,.res-commentBoxes .morechildren a.button,.res-commentBoxes .morerecursion .deepthread{display:inline-block;margin:0 5px;padding:5px 15px!important;border:1px solid #eee!important;background-color:#fcfcfb!important;background-image:none!important;color:#777!important;text-shadow:1px 1px 2px #eee}.res-commentBoxes .morerecursion .deepthread{padding:5px 15px!important}.res-commentBoxes .nestedlisting>.morechildren{margin-left:-10px}.res-commentBoxes.res-commentBoxes-rounded div.comment{border-radius:0!important}.res-commentBoxes .commentarea .nestedlisting{border:0;background-color:transparent;box-shadow:none}.res-commentBoxes .nestedlisting>div.comment{margin:0 0 5px!important;border:1px solid #fff!important;background-color:#fbfbfb;box-shadow:0 1px 3px 0 #ccb}.res-commentBoxes div.comment{margin:-1px 0 0 25px!important;padding:0!important;border:1px solid #eee!important;border-right:0!important;border-radius:0!important}.res-commentBoxes .comment .comment,.res-commentBoxes .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{background-color:#fafaf9!important}.res-commentBoxes .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment{background-color:#fbfbfb!important}.deleted.comment .usertext.grayed{display:none}div.thing.suspicious{outline:1px solid #ff910b!important}div.thing.reported,div.thing.spam{outline:1px solid #fbb!important;background-color:#ffe5e2!important;background-image:linear-gradient(#ffe5e2,#ffdfdb)!important}div.thing.reported>.entry,div.thing.spam>.entry{background-color:#ffe5e2!important}div.thing.reported>.entry .title,div.thing.reported>p>*,div.thing.spam>.entry .title,div.thing.spam>p>*{background-color:transparent!important;color:#a90404!important}.pretty-button.inoffensive,a.pretty-button{padding:1px 10px 5px;border:1px solid #e4dbd0;background-color:#fff6ea;box-shadow:1px 1px 1px 0 #ccc;color:#1d1212;text-shadow:1px 1px 2px #000;font-weight:700}.pretty-button.inoffensive{text-shadow:none}a.pretty-button.negative{border-color:#c25656;background:none #ff6e6e;color:#fff}a.pretty-button.neutral{border-color:#555;background:none #888;color:#fff}a.pretty-button.positive{border-color:#148614;background:none #5ad15a;color:#fff}.entry .buttons li.reported-stamp{padding:3px 5px;border:1px solid #d5b97e!important;background-color:#ffdc91;background-image:none;color:#a90404;font-weight:700}select{padding:1px;border:1px solid #aaa;border-radius:0;background-color:#fffeed!important;vertical-align:middle}.side{z-index:10;margin:0 20px;padding:0 10px;background-color:transparent}.side .spacer{margin:5px 0 5px 0;background-color:transparent}.side .md{overflow:visible;max-width:100%}.side .titlebox{padding:0}.side h1.redditname{margin:1.2em 0 .2em 0;text-shadow:0 0 1px #aaa;letter-spacing:-1px;font-size:26px}.side h1.redditname a{color:#222}div.sidebox.create{position:absolute;right:30px;bottom:140px;z-index:10;display:block;overflow:visible;width:230px;border-width:0!important;border-radius:0;background:none transparent!important}.mod-toolbox div.sidebox.create{bottom:165px}.sidebox.create .subtitle:last-child:after{display:block;content:'...with theme /r/Mindashq.'}.side h1,.side h2,.side h3{margin:5px;background:none transparent;color:#222;text-shadow:0 -1px 0 #ddd,0 1px 0 #fff}.side h1{font-size:19px}.side h2{font-size:16px}.side h3{font-size:14px}.side .md p{margin:5px 10px;font-size:13px;line-height:1.4}.side .md li p,.side .md ol p{margin:0}body:not(.profile-page) .side .titlebox .bottom{display:none;border-color:#d2d2d2}.side .spacer #search{margin:0 0 15px 0;padding:0}#search input[type=text]{margin:0;padding:10px;border:1px solid #e3e3e3;font-size:14px}#searchexpando{margin:0 1px;border-radius:0}.res #searchexpando p{margin:10px 0}.reddit-infobar{margin:5px 5px 10px}.infobar{overflow:hidden;margin:0 5px 10px!important;border-color:#acd9fc;background-color:#eaf4fc;color:#2154a3}.linkinfo{margin:0 0 10px;padding:5px 0;border:1px solid #e3e3e3;border-radius:0!important;background:0 0;text-align:center}.linkinfo .date{padding:5px 0}.linkinfo .score{margin:-1px;padding:10px 0;border:1px solid #e3e3e3;background:#f3f3f3}.linkinfo .score .number{font-size:30px}.linkinfo .score .word{font-weight:300}.linkinfo .totalvotes{display:block;margin:-1px!important;padding:5px;border:1px solid #e3e3e3;background:#f3f3f3;text-align:center}.linkinfo .totalvotes{margin-top:-1px!important}.linkinfo .totalvotes .number,.linkinfo .totalvotes .word{font-size:12px}.linkinfo .shortlink{clear:both}.linkinfo input#shortlink-text{margin-top:5px;border:0!important;background-color:transparent;font-size:12px}.leavecontributor-button,.leavemoderator,.leavemoderator-button,.titlebox form.toggle{background:none transparent;font-size:12px}.login-form-side{margin:0 0 10px;padding:10px 0 0;border:1px solid #eee;border-width:1px 0}.login-form-side input[type=password],.login-form-side input[type=text]{border-color:#d2d2d2}.titlebox form.flairtoggle{position:relative;margin:5px 2px 0 0;padding:5px 5px 5px 35px;border:1px solid #e3e3e3;border-width:1px 1px 0;background:#f3f3f3}.titlebox form.flairtoggle input{float:left;margin:10px 10px 0 -25px}.titlebox .tagline{margin:0 2px 10px 0;padding:0 5px 5px 35px;border:1px solid #e3e3e3;border-width:0 1px 1px;background:#f3f3f3;font-size:12px}.titlebox .subButtons{display:block!important}.titlebox .fancy-toggle-button{display:block;margin:10px 0 0}.subButtons .fancy-toggle-button{display:inline-block}.RESDashboardToggle,.RESFilterToggle,.RESshortcutside,.fancy-toggle-button .active,a.blueButton,div.blueButton{display:inline-block!important;margin:5px -3px 0 0!important;padding:3px 7px!important;min-width:85px;height:auto!important;outline:0;border-color:#e3e3e3!important;border-radius:0!important;text-align:center;font-weight:700;font-size:11px!important;line-height:14px!important}.fancy-toggle-button .add{border-color:#1a8b00!important;background:none #1a8b00!important;color:#fff}.fancy-toggle-button .remove{background:none #f3f3f3;color:#aaa}.RESDashboardToggle,.RESFilterToggle,.RESshortcutside,a.blueButton,div.blueButton{background:none #f3f3f3!important;color:#2154a3!important}.RESDashboardToggle.remove,.RESFilterToggle.remove,.RESshortcutside.remove{color:#aaa!important}.subscribers,.users-online{position:relative;display:inline-block;margin:-1px;padding:10px 20px 5px;width:108px;vertical-align:top;text-align:left;white-space:nowrap}.users-online{margin-bottom:.25em;padding:10px 0 5px 20px;width:130px;border:1px solid #e3e3e3;background:#f3f3f3}.subscribers .number,.users-online .number{display:block;font-size:18px;line-height:1}.users-online:after{position:absolute;top:-1px;right:-1px;width:295px;height:100%;border:1px solid #e3e3e3;content:''}.users-online+form.flairtoggle{margin-top:-4px}.sidebox.submit{width:300px}body .morelink{padding:2px 0;border-color:#357ae8!important;border-radius:2px!important;background:none #5ba2fd!important;background-image:linear-gradient(#5ba2fd,#4b8adb)!important;color:#fff;letter-spacing:0;font-weight:400}body .morelink:hover{border-color:#08c;background:none #4d90fe!important;background-image:linear-gradient(#4d90fe,#357ae8)!important;color:#fff}body .morelink a{color:#fff!important;text-shadow:1px 1px 2px #2154a3;font-weight:700;font-size:14px}body .morelink a:hover{color:#fff!important;text-shadow:1px 1px 2px #2154a3}body .disabled .morelink .nub,body .disabled .morelink:hover .nub,body .morelink .nub,body .morelink:hover .nub{background:none transparent!important}body .disabled .morelink,body .disabled .morelink:hover{border-color:#f5f5f5!important;background:none #ccc!important}body .disabled .morelink a,body .disabled .morelink a:hover{text-shadow:none;cursor:default}.sidecontentbox{padding:5px 0 5px;background-color:transparent!important;line-height:1.3}.sidecontentbox a.helplink{font-size:12px}.sidecontentbox .title h1{color:#888}.sidecontentbox .content{padding:5px 10px;border:1px solid #ccc;background-color:#f5f5f5}.sidecontentbox .content .flair,.sidecontentbox .content .linkflairlabel{margin:0 5px}.side .icon-menu a{background-color:transparent!important}.gadget .midcol{margin:5px 0}.gadget .entry{padding:0 5px 2px}.account-activity-box{padding:0;height:60px;border-radius:2px!important;background-color:transparent;background-position:center bottom}.account-activity-box a{margin:20px 0 0 0;padding:20px 0 0 0}.footer-parent{position:relative;overflow:hidden;padding:0;background:#fff;text-align:left;font-size:12px;line-height:15px}.footer{position:relative;z-index:1;display:block;overflow:hidden;margin:0 0 5px 25px;padding:0;width:100%;border:0 none}.footer .col{margin:10px;border:0 none}.footer .flat-vert.title{margin:0 0 15px;color:#2154a3}.bottommenu,.bottommenu a{font-size:10px}.bottommenu{margin:0 0 0 25px;margin:-5px 0;padding:5px 50px;color:#777}.bottommenu:before{position:absolute;top:0;left:0;display:block;width:100%;height:30px;border-width:1px 0;border-style:solid;content:' '}body.wiki-page h1.wikititle{display:inline-block;margin:10px 15px 5px;color:#5ba2fd;letter-spacing:0;font-size:1em}body.wiki-page .pageactions{float:right;border:0 none}body.wiki-page .wiki-page-content{margin:0 15px 15px;border-top:1px dotted #d2d2d2}body.wiki-page .wiki-page-content .md.wiki>.toc>ul{max-width:40%!important;border-color:#eee;background-color:#f9f9f7;list-style:none!important}body.wiki-page .wiki-page-content .md.wiki h1{letter-spacing:-1px;font-size:2.4em}body.wiki-page .wiki-page-content .md.wiki h2{letter-spacing:-1px;font-size:1.8em}body.wiki-page .wiki-page-content .md.wiki h3{font-size:1.4em}body.wiki-page .wiki-page-content .md.wiki h4{font-size:1.2em}body.wiki-page .wiki-page-content .md.wiki img{max-width:100%}body.wiki-page .wiki-page-content .md.wiki h1,body.wiki-page .wiki-page-content .md.wiki h2,body.wiki-page .wiki-page-content .md.wiki h3,body.wiki-page .wiki-page-content .md.wiki h4{color:#1d1212;font-weight:400;font-style:normal}body.wiki-page .wiki-page-content .md.wiki h5,body.wiki-page .wiki-page-content .md.wiki h6{color:#181818;text-decoration:none}.tagline .RESUserTag{margin:0 5px 0 -4px}div#userbarToggle,div#userbarToggle.userbarShow{top:28%!important;bottom:28%!important;padding:2px;min-height:10px;height:10px;border:0!important;border-radius:10px;background-color:#eaf4fc!important;color:#2154a3;text-align:center;font-weight:700;line-height:.7}.res.pinHeader-sub #RESShortcutsLeft,.res.pinHeader-sub #RESShortcutsRight,.res.pinHeader-sub #RESShortcutsSort,.res.pinHeader-sub #RESShortcutsTrash,.res.pinHeader-subanduser #RESShortcutsAdd,.res.pinHeader-subanduser #RESShortcutsLeft,.res.pinHeader-subanduser #RESShortcutsRight,.res.pinHeader-subanduser #RESShortcutsSort,.res.pinHeader-subanduser #RESShortcutsTrash{background-color:transparent}body.pinHeader-subanduser #header-bottom-right,body.pinHeader-userbar #header-bottom-right{top:15px!important;bottom:auto!important;background-color:#fff}#RESPinnedHeaderSpacer{margin-bottom:30px}.entry.RES-keyNav-activeElement,.entry:hover{padding-right:2px;outline:0;border:0!important;border-right:3px solid #4d90fe!important}.commentarea .entry.RES-keyNav-activeElement div.noncollapsed,.entry.RES-keyNav-activeElement .usertext-body,.entry.RES-keyNav-activeElement div.md,.new-comment .usertext-body .md{outline:0!important;border:0!important}.commentarea .entry.RES-keyNav-activeElement div.noncollapsed,.entry.RES-keyNav-activeElement,.entry.RES-keyNav-activeElement .usertext-body,.entry.RES-keyNav-activeElement div.md{background:none transparent!important}.keyNavAnnotation{color:#888}button.RESBigEditorPop.blueButton{margin:7px 0 0 12px;padding:5px}#progressIndicator.neverEndingReddit,div#NERFail,div.NERPageMarker{margin:0;padding:10px 0;width:auto;border-width:0;border-radius:0;background-color:transparent!important;text-align:left;letter-spacing:-1px;font-weight:700;font-size:20px}#endOfReddit,#progressIndicator.neverEndingReddit,div#NERFail{color:#a90404;letter-spacing:0;font-size:12px}.side .md blockquote{position:relative;margin:5px 0 10px;padding:5px 10px 10px 5px;max-width:100%;border:1px solid #ccc;border-radius:2px;background-color:#f5f5f5}.side .md blockquote>h1,.side .md blockquote>h2,.side .md blockquote>h3{font-size:20px}.side .md blockquote>blockquote{margin:5px 0 0 5px}.side .md blockquote table{margin:5px -11px 5px -6px;min-width:299px;max-width:300px}.side .md blockquote table:last-child{margin-bottom:-11px}.side .md blockquote+h3,.side .md blockquote+h4,.side .md blockquote+h5,.side .md blockquote+h6,.side .md blockquote+hr{margin:0 0 5px 0;width:0;height:1px}.side .md blockquote h1~p{margin-left:10px}.side .md h3+blockquote p,.side .md h4+blockquote p,.side .md h5+blockquote p,.side .md h6+blockquote p{margin:2px 10px;color:#1d1212}.side .md blockquote+p,.side .md p+blockquote,.side .md p+h3,.side .md p+h4,.side .md p+h5,.side .md p+h6{margin-top:12px}.side .md>hr{width:0}.side .md>hr+hr{margin:5px 0 15px;width:auto}.side .md blockquote a[href*='#icon-']:before{border-radius:3px;background-color:#555;background-image:linear-gradient(#555,#4d4d4d);color:#eee;text-shadow:none}.side .md h3+blockquote{border-color:#aacdf1;background-color:#d4ecfe}.side .md blockquote a[href$=blue]:before,.side .md h3+blockquote a[href*='#icon-']:before{background-color:#50a3fd;background-image:linear-gradient(#50a3fd,#1c89d1);color:#d4ecfe}.side .md h3+blockquote hr{background-color:#aacdf1;color:#aacdf1}.side .md h3+blockquote *{border-color:#aacdf1}.side .md h4+blockquote{border-color:#45e745;background-color:#e9ffe6}.side .md blockquote a[href$=green]:before,.side .md h4+blockquote a[href*='#icon-']:before{background-color:#39c739;background-image:linear-gradient(#6de46d,#39c739);color:#e9ffe6}.side .md h4+blockquote hr{background-color:#45e745;color:#45e745}.side .md h4+blockquote *{border-color:#45e745}.side .md h5+blockquote{border-color:#fae296;background-color:#fffde6}.side .md blockquote a[href$=yellow]:before,.side .md h5+blockquote a[href*='#icon-']:before{background-color:#ffce36;background-image:linear-gradient(#fde000,#ffce36);color:#ffffe6}.side .md h5+blockquote hr{background-color:#fae296;color:#fae296}.side .md h5+blockquote *{border-color:#fae296}.side .md h6+blockquote{border-color:#ff9185;background-color:#fef0f0}.side .md blockquote a[href$=red]:before,.side .md h6+blockquote a[href*='#icon-']:before{background-color:#dd4814;background-image:linear-gradient(#ef784e,#dd4814);color:#fef0f0}.side .md h6+blockquote hr{background-color:#ff9185;color:#ff9185}.side .md h6+blockquote *{border-color:#ff9185}.side a[href*='#icon-']{display:block;margin:5px 0 -5px;color:#1d1212;cursor:default}.side a[href*='#icon-']:hover{text-decoration:none}.side a[href*='#icon-']:before{float:left;margin:-5px 10px 5px -15px;padding:5px;width:30px;background-position:0 0;text-align:center;font-weight:700;font-size:25px;line-height:25px}.side a[href*='#icon-']:after{display:table;clear:both;content:''}.side a[href*='#icon-exclamation']:before{content:'♔'}.side a[href*='#icon-information']:before{content:'ⓘ'}.side a[href*='#icon-lightbulb']:before{content:'☼'}.side a[href*='#icon-comments']:before{content:'❝'}.side a[href*='#icon-unhappy']:before{content:'☹'}.side a[href*='#icon-check']:before{content:'✓'}.side a[href*='#icon-clock']:before{content:'◔'}.side a[href*='#icon-cross']:before{content:'⊘'}.side a[href*='#icon-smile']:before{content:'☺'}.side a[href*='#icon-error']:before{content:'☢'}.side a[href*='#icon-note']:before{content:'✑'}.side a[href*='#icon-star']:before{content:'✰'}.side a[href*='#icon-help']:before{content:'✍'}.side a[href*='#icon-time']:before{content:'⌚'}.side a[href*='#icon-bell']:before{content:'❂'}.side a[href*='#icon-eye']:before{content:'✿'}.flair,.linkflairlabel,span.linkflair{padding:2px 5px 0;border:1px solid #ddd;border-radius:2px;background:#f5f5f5;color:#2154a3;vertical-align:middle;text-shadow:none;font-weight:700}.linkflair[class*='-m-'] .linkflairlabel{border:0 none;vertical-align:text-bottom}.flairoptionpane .linkflair-m-vt .linkflairlabel,.linkflair-m-vt .linkflairlabel{background:#c566c5;color:#fff}.flairoptionpane .linkflair-m-io .linkflairlabel,.linkflair-m-io .linkflairlabel{background:#5f8bc4;color:#fff}.flairoptionpane .linkflair-m-be .linkflairlabel,.linkflair-m-be .linkflairlabel{background:#84cbff;color:#fff}.flairoptionpane .linkflair-m-gn .linkflairlabel,.linkflair-m-gn .linkflairlabel{background:#5fd35d;color:#fff}.flairoptionpane .linkflair-m-yw .linkflairlabel,.linkflair-m-yw .linkflairlabel{background:#fde950;color:#a77d19}.flairoptionpane .linkflair-m-oe .linkflairlabel,.linkflair-m-oe .linkflairlabel{background:#ffac30;color:#fffbcb}.flairoptionpane .linkflair-m-rd .linkflairlabel,.linkflair-m-rd .linkflairlabel{background:red;color:#fff}.flairoptionpane .linkflair-m-gy .linkflairlabel,.linkflair-m-gy .linkflairlabel{background:#eaeaed;color:#555}.flairoptionpane .linkflair-m-it .linkflairlabel,.linkflair-m-it .linkflairlabel{background:#555;color:#fff}.linkflair-meta a.title{font-weight:700}.linkflair-meta .rank,.linkflair-meta .score,.linkflair-meta .score-placeholder{display:none!important}.linkflair-meta .midcol{width:50px!important}.linkflair-meta.compressed .midcol{margin:2px 3px 0;width:50px!important}.linkflair-meta .arrow{display:inline-block!important;margin:0 3px;padding:0;font-size:16px}.linkflair-meta .title>.linkflairlabel{position:absolute;left:20px;display:inline-block;margin:25px 10px 0 0;padding:5px 10px;background-color:#fff;box-shadow:0 1px 10px 0 #d1d1d1;vertical-align:text-bottom;font-weight:700;font-size:12px}.linkflair-meta.compressed .title>.linkflairlabel{margin:18px 10px 0 0;padding:3px 8px}#image-upload,.upload li{margin:10px 0;font-size:larger}#image-upload label{font-size:12px}ul#image-preview-list{overflow:hidden;margin:20px 0 20px 20px;font-size:larger}#newlink{margin-left:20px;background:none transparent}.sheets{margin:0}.tabpane-content{padding:15px;border-color:#8ccbfc}#reddit-field{display:none}input:focus,textarea:focus{outline:1px solid #5ba2fd;box-shadow:3px 3px 7px -2px rgba(0,0,0,.2)}a:focus,button:focus{outline:0}
+
+/*! [ B ]. Night Mode ............ */
+.res-nightmode body{background-color:#222;color:#ccc}.res-nightmode .md h1,.res-nightmode .md h2,.res-nightmode .md h3{border:0 none!important;color:#d7d7d7!important}.res-nightmode .thing a.title,.res-nightmode a{color:#acd9fc}.res-nightmode .searchfacets .title,.res-nightmode .thing a.title,.res-nightmode .thing a.title.loggedin{color:#bbb!important;text-shadow:0 1px 0 #000!important}.res-nightmode .thing a.title.loggedin.click:visited,.res-nightmode .thing a.title.loggedin:visited,.res-nightmode .thing a.title:visited{color:#777!important}.res-nightmode .thing a.title.loggedin:hover,.res-nightmode .thing a.title:hover,.res-nightmode a:hover{color:#ff910b!important}.res-nightmode .content .md a:visited,.res-nightmode div.comment .md p>a:visited{color:#72aaca!important}.res-nightmode .content.submit .roundfield.info-notice,.res-nightmode .linefield,.res-nightmode .roundfield{border-color:#582b2b;border-radius:2px;background-color:#000!important;box-shadow:0 0 1px 1px #333}.res-nightmode .linefield input[type=password],.res-nightmode .linefield input[type=text],.res-nightmode .linefield textarea,.res-nightmode .roundfield input[type=number],.res-nightmode .roundfield input[type=password],.res-nightmode .roundfield input[type=text],.res-nightmode .roundfield input[type=url],.res-nightmode .roundfield textarea{border-color:#9b9999;border-radius:2px;box-shadow:0 1px 4px 1px #4b4949}.res-nightmode .md:not(.wiki){color:#ccc!important}.res-nightmode hr{background-color:#414141;color:#373737}.res-nightmode .help blockquote,.res-nightmode .md blockquote{border-color:#d2d2d2;border-left-color:#5ba2fd}.res-nightmode .md table{border-color:#444}.res-nightmode .md table thead{border-bottom:1px solid #444;background-color:#090909}.res-nightmode .md table tr:nth-child(odd){background-color:#292929}.res-nightmode .md table tr:nth-child(even){background-color:#222}.res-nightmode .md table td,.res-nightmode .md table th{border-right:1px solid #444;color:#ccc}.res-nightmode .md ol,.res-nightmode .md ul{background-color:transparent!important;color:#ccc}.res-nightmode .md.wiki pre,.res-nightmode .usertext-body pre{color:#ddd!important}.res-nightmode .md.wiki pre,.res-nightmode .usertext-body pre,.res-nightmode li>code,.res-nightmode p>code{border:1px solid #333;border-radius:2px;background-color:#080808!important;color:#ddd!important;font-size:11px}.res-nightmode code{color:#ddd!important;font-family:Consolas,Monaco,'Courier New',monospace}.res-nightmode li>code,.res-nightmode p>code{color:#ddd!important}.res-nightmode a[href='#s'],.res-nightmode a[href='/s']{background-color:#3d3d3d;color:#fbf9f4}.res-nightmode a[href='#s']:after,.res-nightmode a[href='/s']:after{background-color:#555;color:#555}.res-nightmode a[href='#s']:active:after,.res-nightmode a[href='#s']:hover:after,.res-nightmode a[href='/s']:active:after,.res-nightmode a[href='/s']:hover:after{color:#fff;font-size:small}.res-nightmode .entry .flat-list li a[onclick*=reply]{border-color:#302f2f;border-radius:2px;background-color:#222;color:#eee!important}.res-nightmode .BEFoot button,.res-nightmode .btn,.res-nightmode .button,.res-nightmode a[href*='#btn'],.res-nightmode button.blueButton,.res-nightmode button.save,.res-nightmode input[type=submit]{text-shadow:1px 1px 2px #000}.res-nightmode .btn a{color:#000}.res-nightmode .btn.right,.res-nightmode .usertext span[class*=toggle],.res-nightmode a.reddiquette,.res-nightmode button.cancel{background:none transparent!important}.res-nightmode #url-field button,.res-nightmode .btn.right a,.res-nightmode .content button.RESBigEditorPop,.res-nightmode .usertext span[class*=toggle] a,.res-nightmode a.reddiquette,.res-nightmode button.cancel,.res-nightmode span.RESSubscriptionButton{color:#777;text-shadow:1px 1px 2px #222}.res-nightmode #url-field button:hover,.res-nightmode .btn.right a:hover,.res-nightmode .content button.RESBigEditorPop:hover,.res-nightmode .usertext span[class*=toggle] a:hover,.res-nightmode a.reddiquette:hover,.res-nightmode button.cancel:hover,.res-nightmode span.RESSubscriptionButton:hover{color:#a95908}.res-nightmode .entry .flat-list .redditSingleClick,.res-nightmode .entry .flat-list li a,.res-nightmode .entry .flat-list li a:visited{color:#5a5a5a!important}.res-nightmode .entry.RES-keyNav-activeElement .flat-list .redditSingleClick,.res-nightmode .entry.RES-keyNav-activeElement .flat-list li a,.res-nightmode .entry:focus>.flat-list .redditSingleClick,.res-nightmode .entry:focus>.flat-list li a,.res-nightmode .entry:hover>.flat-list .redditSingleClick,.res-nightmode .entry:hover>.flat-list li a,.res-nightmode .noncollapsed:hover>.flat-list li a{color:#888!important}.res-nightmode .entry .flat-list li a.comments{color:#aaa!important}.res-nightmode div#header{background-color:#000!important;box-shadow:0 -3px 9px 5px #000}.res-nightmode #header:after,.res-nightmode .bottommenu:before{border-color:#494848;background-color:#414141;background-image:linear-gradient(#696969,#414141)}.res-nightmode #sr-header-area{border-bottom-color:#000;background-color:#000!important;box-shadow:0 1px 8px 1px #000}.res-nightmode #sr-header-area .separator{color:#d2d2d2}.res-nightmode #sr-header-area a{color:#aaa}.res-nightmode div#RESShortcutsEditContainer{background:none #000}.res-nightmode #sr-more-link{background-color:#040406!important;color:#000}.res-nightmode #RESSubredditGroupDropdown,.res-nightmode .drop-choices,.res-nightmode table#srList{border-color:#555;background-color:#444!important;color:#ff910b}.res-nightmode .drop-choices a.choice,.res-nightmode div#RESSubredditGroupDropdown li a,.res-nightmode table#srList a{color:#ff910b}.res-nightmode .drop-choices a.choice:hover,.res-nightmode div#RESSubredditGroupDropdown li:hover,.res-nightmode table#srList a:hover,.res-nightmode table#srList tr:hover{background-color:#696969}.res-nightmode .srdrop .choice.bottom-option,.res-nightmode table#srList tr{border-color:#696969}.res-nightmode div#header-bottom-right{border-radius:0!important;background-image:linear-gradient(#696969,#414141)}.res-nightmode #header-bottom-right:hover{background-color:#333!important;background-image:linear-gradient(#333,#333)!important}.res-nightmode #header-bottom-right a,.res-nightmode #header-bottom-right span{color:#acd9fc}.res-nightmode #header-bottom-right:hover a,.res-nightmode #header-bottom-right:hover span{text-shadow:none}.res-nightmode div#header-bottom-left{background-color:transparent!important}.res-nightmode .pagename{color:#acd9fc}.res-nightmode .pagename a,.res-nightmode .pagename.selected{border-width:0 0 1px 0;background-color:#313131;background-image:linear-gradient(#313131,#181817);box-shadow:0 4px 6px #111;color:#fff;text-shadow:0 1px 0 #111}.res-nightmode .pagename a:hover{background-color:#333;background-image:linear-gradient(#555,#222)}.res-nightmode #header-img.default-header{color:#acd9fc}.res-nightmode #header-img-a{border-width:1px 0 1px 1px;border-color:#1c1c1c;background-color:#414141;box-shadow:0 4px 6px #000}.res-nightmode ul.tabmenu li a,.res-nightmode ul.tabmenu li a:visited,.res-nightmode ul.tabmenu li.selected a{background-color:transparent;color:#acd9fc}.res-nightmode ul.tabmenu li.selected a,.res-nightmode ul.tabmenu li.selected a:visited{padding-bottom:10px!important;border-color:#313131!important;background-color:#1d1c27;background-image:none}.res-nightmode ul.tabmenu li a:hover,.res-nightmode ul.tabmenu li.selected a:hover{background-color:#333;color:#e06935}.res-nightmode div.content{border-color:#202020;background-color:#1b1b1b!important;box-shadow:0 1px 4px 3px #000}.res-nightmode.listing-page>div.content,.res-nightmode.messages-page>div.content,.res-nightmode.search-page>div.content,.res-nightmode.single-page>div.content{padding:0;border:0 none;background-color:transparent!important;box-shadow:none}.res-nightmode.single-page>div.content>.linklisting .link{border-radius:0;background-color:#040404}.res-nightmode .panestack-title .title{color:#777}.res-nightmode .commentarea .menuarea,.res-nightmode .messages-page .menuarea,.res-nightmode .panestack-title,.res-nightmode .profile-page .menuarea,.res-nightmode .related-page .panestack-title,.res-nightmode .search-page .menuarea{border:1px solid #292929!important;background-color:#292929;box-shadow:0 0 5px 0 #1e1e1e}.res-nightmode .usertext.cloneable{border-color:#292929!important;background-color:#222}.res-nightmode .commentarea>.usertext.cloneable{border-color:#292929!important;background-color:#292929;box-shadow:0 0 5px 0 #1e1e1e}div.usertext-edit textarea{padding:5px;border:1px solid #ccc}.res-nightmode .formtabs-content .infobar{text-shadow:none}.res-nightmode ul.tabmenu.formtab li.selected a,.res-nightmode ul.tabmenu.formtab li.selected a:hover{padding:5px 20px!important;border:0!important;box-shadow:none;color:#fff}.res-nightmode .expando-button:before{border:1px solid #555;background-color:#555;color:#eee;text-shadow:0 0 3px #222}.res-nightmode .expando-button:hover:before{border-color:#444;background-color:#444;box-shadow:0 4px 7px -3px #aaa;color:#aaa}.res-nightmode div.organic-listing,.res-nightmode div.thing.link.promoted,.res-nightmode div.thing.link.stickied{overflow:hidden;border-color:#111;background:none #00121f;box-shadow:0 1px 6px -1px #000}.res-nightmode div.thing.link.stickied{background:none #050c02!important}.res-nightmode .linklisting div.thing,.res-nightmode .search-result{margin:0;border-color:#292929;background-color:#1e1e1e;box-shadow:0 0 5px 0 #111}.res-nightmode .linklisting .odd{background-image:linear-gradient(#222,#1e1e1e)}.res-nightmode .linklisting .even{background-color:#262626;background-image:linear-gradient(#222,#262626)}.res-nightmode .link.last-clicked{background:#111!important}.res-nightmode .combined-search-page #search input[type=text]{border:1px solid #292929}.res-nightmode .arrow:not(.prev):not(.next){background:none transparent!important;color:#555}.res-nightmode .arrow.down:hover,.res-nightmode .arrow.downmod,.res-nightmode .arrow.up:hover,.res-nightmode .arrow.upmod{background:none transparent!important}.res-nightmode .arrow.down:hover:after,.res-nightmode .arrow.up:hover:after{color:#ddd}.res-nightmode .link .score{color:#aaa}.res-nightmode .nestedlisting>div.comment{border:1px solid #2d2d2d;background-color:#1b1b1b;box-shadow:1px 1px 3px -1px #000}.res-nightmode .comment a.expand{color:#777}.res-nightmode .comment a.expand:hover{background-color:#444}.res-nightmode .comment a.expand:visited{color:#777}.res-nightmode .comment .child{border-color:#2d2d2d}.res-nightmode .morechildren a.button,.res-nightmode .morerecursion .deepthread,.res-nightmode .nextprev a{color:#888!important;text-shadow:none}.res-nightmode div.content>form>div .commentarea .even{border-top:1px solid #111;background-color:transparent}.res-nightmode.res-commentBoxes .commentarea .nestedlisting{border:0;background-color:transparent;box-shadow:none}.res-nightmode .nextprev a,.res-nightmode.res-commentBoxes .morechildren a.button,.res-nightmode.res-commentBoxes .morerecursion .deepthread{border-color:#222!important;background-color:#1b1b1b!important;color:#888!important;text-shadow:none}.res-nightmode.res-commentBoxes .nestedlisting>div.comment{border:1px solid #111!important;border-color:#2d2d2d!important;background-color:#1b1b1b!important;box-shadow:1px 1px 3px -1px #000}.res-nightmode.res-commentBoxes div.comment{border:1px solid #111!important;border-color:#2d2d2d!important;border-right:0!important;border-radius:0!important}.res-nightmode.res-commentBoxes .comment .comment,.res-nightmode.res-commentBoxes .comment .comment .comment .comment,.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment,.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{background-color:#131313!important}.res-nightmode.res-commentBoxes .comment .comment .comment,.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment,.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment,.res-nightmode.res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment{background-color:#1b1b1b!important}.res-nightmode div.thing.suspicious{border-color:#ff910b!important}.res-nightmode div.thing.reported,.res-nightmode div.thing.spam{margin:0 0 5px;outline:1px solid #8f0606!important;background-color:#771207!important;background-image:linear-gradient(#771207,#711107);box-shadow:none!important}.res-nightmode div.thing.reported>.entry,.res-nightmode div.thing.spam>.entry{background-color:#771207!important}.res-nightmode div.thing.reported>.entry .title,.res-nightmode div.thing.reported>p>*,.res-nightmode div.thing.spam>.entry .title,.res-nightmode div.thing.spam>p>*{background-color:transparent!important;color:#fd9285!important}.res-nightmode a.pretty-button{box-shadow:1px 1px 1px 0 #222;color:#fff9e0!important}.res-nightmode a.pretty-button.inoffensive{border-color:#444;background:none #313131}.res-nightmode .side{background-color:transparent}.res-nightmode .side .titlebox{padding:0!important}.res-nightmode .side .titlebox>h1{text-shadow:1px 1px 1px #000,2px 2px 3px #555,-1px -1px 1px #111}.res-nightmode .side h1,.res-nightmode .side h2,.res-nightmode .side h3{color:#ddd;text-shadow:0 -1px 0 #444,0 1px 0 #0f0000}.res-nightmode body:not(.profile-page) .side .titlebox .bottom{border-color:#555}.res-nightmode #search input[type=text]{border-color:#1c1c1c;color:#fff!important}.res-nightmode .searchpane{border-width:0!important;border-color:#333;border-radius:0!important;background-color:#111;box-shadow:none}.res-nightmode .searchfacets{border-color:#333;background-color:transparent!important;box-shadow:none}.res-nightmode .infobar{border-color:#0e0e0e;background-color:#414141;background-image:none}.res-nightmode .linkinfo{border-color:#333!important;background:0 0!important}.res-nightmode .linkinfo .score,.res-nightmode .linkinfo .totalvotes{border-color:#333;background:#111}.res-nightmode .linkinfo input#shortlink-text{border:0!important;background-color:transparent!important;color:#f5f5f5}.res-nightmode .login-form-side{border:1px solid #111!important;border-width:1px 0!important;background-color:transparent!important}.res-nightmode .login-form-side label{color:#fff!important}.res-nightmode .titlebox form.flairtoggle{border-color:#333!important;background:#111!important}.res-nightmode .titlebox .tagline{border-color:#333;background:#111}.res-nightmode .RESDashboardToggle,.res-nightmode .RESFilterToggle,.res-nightmode .RESshortcutside,.res-nightmode .fancy-toggle-button .active,.res-nightmode a.blueButton,.res-nightmode div.blueButton{border-color:#010101!important}.res-nightmode .fancy-toggle-button .add{border-color:#27b307!important;background:none #1a8b00!important}.res-nightmode .fancy-toggle-button .remove{background:none #0f0000;color:#777}.res-nightmode .RESDashboardToggle,.res-nightmode .RESFilterToggle,.res-nightmode .RESshortcutside,.res-nightmode a.blueButton,.res-nightmode div.blueButton{background:none #0f0000!important;color:#2154a3!important}.res-nightmode .RESDashboardToggle.remove,.res-nightmode .RESFilterToggle.remove,.res-nightmode .RESshortcutside.remove{color:#777!important}.res-nightmode .users-online{border-color:#333;background:#111}.res-nightmode .users-online:after{border-color:#333}.res-nightmode div.spacer>.submit{overflow:visible!important}.res-nightmode .sidecontentbox{background-color:transparent!important}.res-nightmode .sidecontentbox .title h1{color:#d2d2d2}.res-nightmode .sidecontentbox .thing{border:0 none #222!important}.res-nightmode .spacer .sidecontentbox .content{border-color:#333;background-color:#222}.res-nightmode .account-activity-box{border-radius:0 3px;background-color:transparent}.res-nightmode .footer-parent{background:#393939}.res-nightmode .footer{background:0 0!important}.res-nightmode .footer .flat-vert.title{color:#acd9fc}.res-nightmode.wiki-page .wiki-page-content{border-top:1px dotted #414141}.res-nightmode.wiki-page .wiki-page-content .md.wiki>.toc>ul{border-color:#111;background:#040406}.res-nightmode.wiki-page .wiki-page-content .md.wiki h1,.res-nightmode.wiki-page .wiki-page-content .md.wiki h2{text-shadow:0 0 2px #ccc,1px 1px 3px #111}.res-nightmode.wiki-page .wiki-page-content .md.wiki h5,.res-nightmode.wiki-page .wiki-page-content .md.wiki h6{color:#fff!important}.res-nightmode.wiki-page .pageactions .wikiaction-current:hover{background-color:#ff910b}.res-nightmode.wiki-page .pageactions .wikiaction:hover{background-color:#acd9fc}.res-nightmode.wiki-page .pageactions .wikiaction-current{background-color:#686868;color:#fff}.res-nightmode div#userbarToggle{background-color:#333!important;color:#acd9fc}.res-nightmode .RES-keyNav-activeElement .noncollapsed,.res-nightmode .RES-keyNav-activeElement .noncollapsed .md,.res-nightmode .RES-keyNav-activeElement .usertext-body,.res-nightmode .RES-keyNav-activeElement .usertext-body .md,.res-nightmode .entry.RES-keyNav-activeElement .usertext-body,.res-nightmode .entry.RES-keyNav-activeElement div.md,.res-nightmode .entry.RES-keyNav-activeElement div.noncollapsed,.res-nightmode div.RES-keyNav-activeElement,.res-nightmode div.RES-keyNav-activeElement .noncollapsed .md p,.res-nightmode div.RES-keyNav-activeElement .usertext-body .md p{outline:0!important;background:none transparent!important}.res-nightmode .keyNavAnnotation{color:#777}.res-nightmode.messages-page a{color:#acd9fc}.res-nightmode #progressIndicator.neverEndingReddit,.res-nightmode div#NERFail,.res-nightmode div.NERPageMarker{color:#ff4900}.res-nightmode .side .spacer .md h1,.res-nightmode .side .spacer .md h2,.res-nightmode .side .spacer .md h3{background-color:transparent!important}.res-nightmode .side .md blockquote{border:1px solid #444;border-radius:2px;background-color:#111}.res-nightmode .side .md blockquote h1{background-color:transparent}.res-nightmode .side .md blockquote code,.res-nightmode .side .md blockquote pre{color:#ddd!important}.res-nightmode .side .md blockquote *{border-color:#444}.res-nightmode .side .md h4+blockquote p,.res-nightmode .side .md h5+blockquote p,.res-nightmode .side .md h6+blockquote p{color:#fff}.res-nightmode .side .md blockquote a[href*='#icon-']:before{color:#111}.res-nightmode .side .md h4+blockquote{border:1px solid #046f04;background-color:#031401}.res-nightmode .side .md h4+blockquote a[href*='#icon-']:before{color:#160019}.res-nightmode .side .md h4+blockquote hr{background-color:#046f04;color:#046f04}.res-nightmode .side .md h4+blockquote *{border-color:#046f04}.res-nightmode .side .md h5+blockquote{border:1px solid #745800;background-color:#120e01}.res-nightmode .side .md h5+blockquote a[href*='#icon-']:before{color:#000019}.res-nightmode .side .md h5+blockquote hr{background-color:#745800;color:#745800}.res-nightmode .side .md h5+blockquote *{border-color:#745800}.res-nightmode .side .md h6+blockquote{border:1px solid #77150b;background-color:#100000}.res-nightmode .side .md h6+blockquote a[href*='#icon-']:before{color:#010f0f}.res-nightmode .side .md h6+blockquote hr{background-color:#77150b;color:#77150b}.res-nightmode .side .md h6+blockquote *{border-color:#77150b}.res-nightmode .side a[href*='#icon-']{color:#ccc}.res-nightmode .flair,.res-nightmode .linkflairlabel,.res-nightmode span.linkflair{border-color:#585757;border-radius:2px;background-color:#3c3b3b;background-image:none;color:#d2d2d2}.res-nightmode .linkflair-m-vt .linkflairlabel{background:#8f2a8f;color:#ddd}.res-nightmode .linkflair-m-io .linkflairlabel{background:#325a8d;color:#ddd}.res-nightmode .linkflair-m-be .linkflairlabel{background:#026fbe;color:#ddd}.res-nightmode .linkflair-m-gn .linkflairlabel{background:#2e742d;color:#ddd}.res-nightmode .linkflair-m-yw .linkflairlabel{background:#f8f87e;color:#333}.res-nightmode .linkflair-m-oe .linkflairlabel{background:#ffa51d;color:#333}.res-nightmode .linkflair-m-rd .linkflairlabel{background:#d53838;color:#ddd}.res-nightmode .linkflair-m-gy .linkflairlabel{background:#4e4e4e;color:#ddd}.res-nightmode .linkflair-m-it .linkflairlabel{background:#fff;color:#000}.res-nightmode .linkflair-meta .title>.linkflairlabel{border-color:#333;background-color:#000;box-shadow:0 1px 10px 0 #000;color:#fff}.res-nightmode .tabpane-content{border-color:#555}.res-nightmode input:focus,.res-nightmode textarea:focus{outline:1px solid #0e0e0e;box-shadow:3px 3px 7px -2px rgba(0,0,0,.9)}
+
+/*! [ C ]. Modules for specific customization ............ */
+/*!  visit http://www.reddit.com/r/mindashq/wiki/modules for ready to use add-on modules  */
+
+/* ~~  Base Customization ~~~~~~~~~ */
+.side .md h3 + blockquote,
+.side .md h6 + blockquote {
+	margin: 5px -12px;
+	padding: 10px 15px;
+	border-width: 2px;
+	border-color: #fff;
+}
+
+.side .md h6 + blockquote {
+	background-color: #df0000;
+	color: #fff;
+}
+
+	.side .md h6 + blockquote p {
+		color: #fff;
+	}
+
+/* ~~  A.3. Header ~~~~~~~~~ */
+#header {
+	margin: 0 0 30px;
+	max-height: 92px;
+	height: auto;
+	background-color: #fff;
+	box-shadow: 0 -3px 9px 5px #ddd;
+}
+
+#header-bottom-right {
+	bottom: 35px !important;
+	background: transparent !important;
+}
+
+/* --  A.3.3. The Reddit Name, applies to all pages ------ */
+.pagename a,
+.pagename.selected {
+	margin: 0 0 -10px;
+	padding: 18px 20px;
+}
+
+/*hides the downvote arrow*/  
+
+.arrow.down {
+visibility: hidden;
+display: none
+}
+
+/*displays downvote arrow for comments only, after disabling*/
+.comment .arrow.down {
+visibility: visible;
+display: block
+}
+
+/*Activite the downvote arrow on comments */
+.comment .arrow.down:hover:before {
+    visibility: visible;
+     position: absolute;
+     display: block;
+     z-index: 1000;
+     width: 210px;
+     padding: 5px;
+     border: 0px solid #333;
+     background: #fca;
+     content: "Please report abusive or tangential comments.";
+     text-align: center;
+     font-size: 10px;
+     color: red;
+     margin-left: 25px;
+     margin-top: 5px;
+     -moz-border-radius: 4px;
+     border-radius: 4px;
+     -webkit-border-radius: 4px
+}
+/* --  A.3.4. Reddit Image and Text ------ */
+#header-img-a {
+	margin: 20px -3px -10px 0;
+	height: 61px;
+	background-color: #5ba2fd;
+	background-image: linear-gradient(#5ba2fd,#4b8adb);
+	line-height: 70px;
+}
+
+	#header-img-a img {
+		margin: -10px 10px 0;
+		max-height: 45px;
+		vertical-align: middle;
+	}
+
+/* --  A.3.5. Header Nav ------ */
+ul.tabmenu {
+	margin: 15px 10px -18px 10px;
+}
+
+	ul.tabmenu li.selected a,
+	ul.tabmenu li.selected a:hover,
+	ul.tabmenu li.selected a:visited {
+		border: 1px solid #5ca2e8;
+		border-width: 0 0 3px;
+		box-shadow: 0 1px 10px 0 #b9a7a6;
+	}
+
+/* --  A.4.2. Links (Posts) listing ------ */
+.linklisting .thing {
+	padding: 5px 0 7px;
+}
+
+/* ~~  A.5. Sidebar ~~~~~~~~~ */
+.side {
+	margin: 60px 35px 20px 30px;
+	padding: 10px;
+	border: 2px solid #fff;
+	background-color: #edf4fa;
+	box-shadow: 0 1px 4px 0 #ccc;
+}
+
+	.side .spacer {
+		margin: 5px 0 5px 0;
+		background-color: transparent;
+	}
+
+/* --  A.8.2 Infobar, MoreInfo and MoreSearch Divs -- */
+.linkinfo {
+	margin: 0 -10px 10px;
+	border-width: 0 0 2px;
+	border-color: #fff;
+}
+
+/* ~~   A.10. Wiki Pages ~~~~~ */
+body.wiki-page .wiki-page-content {
+	font-size: 1.2em;
+}
+
+/* --  A.8.7. Moderators Area -- */
+.spacer .sidecontentbox .content {
+	margin: 5px -10px !important;
+	padding: 10px 15px;
+	border: 1px solid #fff;
+	border-width: 2px 0;
+	background-color: #f5f5f5;
+}
+
+/* [ B ]. Night Mode ............ */
+/* ~~  B.1. Common Tags ~~~~~~~~~ */
+.res-nightmode body.res-nightmode {
+	background-color: #111 !important;
+	color: #ccc;
+}
+
+.res-nightmode #header-img-a {
+	background-color: #083e5c;
+	background-image: linear-gradient(#546477,#083e5c);
+	box-shadow: 0 4px 6px #010611;
+}
+
+.res-nightmode a[href*='#btn'] strong:before {
+	color: #222;
+	text-shadow: 2px 1px 1px #ccc;
+}
+
+/* --  B.3.5. Header Nav ------ */
+.res-nightmode ul.tabmenu li.selected a,
+.res-nightmode ul.tabmenu li.selected a:visited {
+	border: 1px solid #acd9fc !important;
+	border-width: 0 0 3px !important;
+	box-shadow: 0 1px 10px 0 #000;
+}
+
+/* ~~  B.5. Sidebar ~~~~~~~~~ */
+.res-nightmode .side {
+	margin: 60px 35px 20px 30px;
+	border-color: #333;
+	background-color: #222;
+	box-shadow: 0 1px 4px 0 #000;
+}
+
+/* ~~  End. Base Customization ~~~~~~~~~ */
+
+/* ---- Sub specific upgrades ---- */
+
+/*specific sidebar button styling */
+
+a[href*='#btn'] {
+	margin: -4px -5px;
+	max-width: 270px;
+	color: #fcffe8;
+	text-align: left;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 1.4;
+}
+
+	a[href*='#btn'] strong {
+		display: block;
+		padding: 0 0 0 10px;
+		color: #fff;
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	a[href*='#btn'] + .keyNavAnnotation {
+		top: -20px;
+		left: 295px;
+		display: inline-block;
+		margin-bottom: -12px;
+		max-width: 50px;
+		color: #fff;
+	}
+
+	a[href*='#btn'] strong:before {
+		display: inline-block;
+		margin: -3px 3px 0 -22px;
+		color: #f5f5f5;
+		content: '➨';
+		text-shadow: 2px 1px 1px #0f0f0f;
+		font-size: 20px;
+	}
+
+	a[href*='#btn'] em {
+		display: none;
+		padding-left: 10px;
+		font-weight: bold;
+		font-style: normal;
+		font-size: 26px;
+	}
+
+	a[href*='#btn']:hover,
+	.res a[href*='#btn']:hover,
+	a[href*='#btn']:hover strong {
+		color: #5ba2fd !important;
+		text-shadow: none;
+	}
+
+		a[href*='#btn']:hover:before {
+			position: absolute;
+			margin: -3px 10px 0 0;
+			color: #fff;
+			content: 'Click to Post at';
+			text-shadow: 1px 1px 2px #0f0f0f;
+			font-size: 12px;
+		}
+
+		a[href*='#btn']:hover em {
+			display: block;
+			margin-top: -36px;
+			color: #fff;
+			text-shadow: 1px 1px 2px #0f0f0f;
+		}
+
+.thing a[href*='#btn'] {
+	display: inline-block;
+	margin: 0;
+}
+
+	.thing a[href*='#btn']:hover {
+		color: #fff !important;
+	}
+
+		.thing a[href*='#btn']:hover:before {
+			content: ' ';
+		}
+
+div.usertext-edit textarea {
+	min-height: 120px;
+}
+
+/*specific sidebar button styling ends */
+
+#reddit-field {
+	display: none;
+}
+
+.submit_text {
+	max-height: 350px;
+}
+
+#viewImagesButton {
+	display: none; /* because, text posts only*/
+}
+
+.side .spacer #search {
+	position: absolute;
+	top: 58px;
+	z-index: 99;
+}
+
+.sidebox.submit {
+	display: none;
+}
+
+.side .titlebox h1.redditname {
+	margin-top: 0;
+}
+
+/* Adding disclaimer on link/text submission form */
+#text-field .gray {
+	font-size: 0;
+}
+
+	#text-field .gray:after {
+		display: block;
+		margin-left: 10px;
+		color: #f00;
+		content: "ALWAYS press 'Enter' twice to have a blank line between text blocks. Avoid wall of text. Use short paragraphs!";
+		font-weight: bold;
+		font-size: 12px;
+	}
+
+#text-field .bottom-area:before {
+	display: block;
+	margin: 5px 20px;
+	color: #4b8adb;
+	content: "tldr is abbreviation for too long, didn't read! Use of tldr to summarize your post is mandatory.";
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#newlink.submit.content:after {
+	display: block;
+	margin: 10px 0 10px;
+	color: #4b8adb;
+	content: 'Make sure to assign a flair to your post AFTER it is submitted for increased visibility and to encourage topic based discussion.';
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/* ----  End Sub specific upgrades ---- */
+/* -- Custom Top Placement of Links ---- */
+.side .md > blockquote:nth-of-type(1) {
+	position: absolute;
+	top: 35px; /* Tweak this as per the header height (esp when C1 Header Images is used)*/
+	z-index: 99;
+	display: block;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	border: 0 none;
+	background-color: transparent;
+	white-space: nowrap;
+}
+
+	.side .md > blockquote:nth-of-type(1) > p {
+		display: inline-block;
+	}
+
+		.side .md > blockquote:nth-of-type(1) > p > a {
+			padding: 10px;
+			color: #2154a3;
+			font-weight: bold;
+			font-size: 13px;
+		}
+
+			.side .md > blockquote:nth-of-type(1) > p > a:hover {
+				color: #ff4500;
+			}
+
+			.side .md > blockquote:nth-of-type(1) > p > a:after {
+				margin: 0 -10px 0 10px;
+				content: '|';
+			}
+
+.res-nightmode .side .md > blockquote:nth-of-type(1) {
+	border: 0 none;
+	background-color: transparent;
+}
+
+/* --  C.3. Pinote ---- */
+.side .md > blockquote:nth-of-type(2) {
+	position: absolute;
+	top: 90px; /* Tweak this as per the header height , currently set for r/relationships */
+	right: auto;
+	left: 30px;
+	z-index: 10;
+	border: 0 !important;
+	background-color: transparent !important;
+	white-space: nowrap;
+	font-size: 11px;
+	line-height: 1.1;
+}
+
+	.side .md > blockquote:nth-of-type(2) > blockquote {
+	}
+
+	.side .md > blockquote:nth-of-type(2) p {
+		margin: 5px 0;
+		white-space: normal;
+		font-size: 10px;
+		line-height: 1.6;
+	}
+
+	.side .md > blockquote:nth-of-type(2) ul {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		max-width: 100%;
+		list-style-type: none;
+	}
+
+	.side .md > blockquote:nth-of-type(2) li {
+		display: inline-block;
+		margin: 0 -2px;
+		padding: 0;
+		background-color: transparent;
+		font-weight: bold;
+	}
+
+		.side .md > blockquote:nth-of-type(2) li a {
+			display: inline-block;
+			padding: 9px;
+			border-width: 0 0 2px;
+			border-style: solid;
+		}
+
+a[name='content'] {
+	display: block;
+	margin: -30px 0 -8px 0;
+	min-height: 65px;
+	border: 1px solid #d2d2d2;
+	border-width: 1px 0;
+	background-color: #edf4fa;
+	box-shadow: 0 -3px 9px 5px #ddd;
+}
+
+	a[name='content']:before {
+		position: absolute;
+		z-index: 10;
+		display: block;
+		margin: 85px 350px 10px 35px;
+		color: #999;
+		content: 'Use the FAQ link at top to familiarize yourself about community. Please review the posting guidelines in the sidebar at right before submitting.';
+		font-size: 12px;
+	}
+
+.res-nightmode .side .md > blockquote:nth-of-type(2) li {
+}
+
+.res-nightmode a[name='content'] {
+	border-color: #403f3f;
+	background-color: #0a0a0a;
+	box-shadow: 0 -3px 9px 5px #000;
+}
+
+	.res-nightmode a[name='content']:before {
+		color: #bcbcbc;
+	}
+
+.res-nightmode .side .md > blockquote:nth-of-type(2) > h1 > a {
+	text-shadow: 1px 1px 1px #414141;
+}
+
+/* --  C.3.end PiNote ---- */
+/* --  C.4. Navigator ---- */
+.side .md > blockquote:last-child {
+	display: none;
+}
+
+.side .md > blockquote:last-child {
+	position: absolute;
+	top: 57px; /* Tweak this as per the header height (esp when C1 Header Images is used)*/
+	z-index: 999;
+	/* left: 630px; */
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	background-color: transparent;
+}
+
+	.side .md > blockquote:last-child > h1 {
+		overflow: hidden;
+		margin: -28px 0 0 10px;
+		padding: 2px;
+		width: 25px;
+		background-color: transparent;
+		color: #2154a3;
+		vertical-align: middle;
+		text-align: center;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+		.side .md > blockquote:last-child > h1 a {
+			background-color: transparent;
+			color: #2154a3;
+		}
+
+		.side .md > blockquote:last-child > h1 em {
+			display: none;
+		}
+
+	.side .md > blockquote:last-child ul {
+		display: none;
+		overflow: visible;
+		margin: 0;
+		padding: 0;
+		list-style: none outside;
+		list-style-image: none;
+		vertical-align: top;
+		white-space: normal;
+	}
+
+	.side .md > blockquote:last-child:hover > h1,
+	.side .md > blockquote:last-child:active > h1 {
+		margin-bottom: -15px;
+		padding-bottom: 15px;
+		color: #ff4500;
+		text-shadow: none;
+	}
+
+		.side .md > blockquote:last-child:hover > h1 a,
+		.side .md > blockquote:last-child:active > h1 a {
+			color: #ff4500;
+			text-shadow: none;
+		}
+
+	.side .md > blockquote:last-child:hover > ul,
+	.side .md > blockquote:last-child:active > ul {
+		display: block;
+		margin: -3px 0 0 -50px;
+		padding: 0 50px 50px;
+	}
+
+	.side .md > blockquote:last-child li {
+		margin: 0;
+		padding: 5px 15px 0;
+		width: 150px;
+		height: 30px;
+		border-width: 0 1px 1px 1px;
+		border-style: solid;
+		border-color: #ccc;
+		background-color: #f5f5f5;
+		box-shadow: 0 1px 6px 0 #bbb;
+		text-shadow: 0 1px 0 #ddd;
+		white-space: normal;
+		line-height: 30px;
+	}
+
+		.side .md > blockquote:last-child li:first-child {
+			border-width: 1px;
+		}
+
+		.side .md > blockquote:last-child li a {
+			color: #0026ff;
+		}
+
+	.side .md > blockquote:last-child ul > li:hover,
+	.side .md > blockquote:last-child ul > li:active,
+	.side .md > blockquote:last-child ul > li:hover > a,
+	.side .md > blockquote:last-child ul > li:active > a {
+		background-color: #5ca2e8;
+		color: #dcebfa;
+		text-shadow: 0 1px 0 #333;
+	}
+
+	.side .md > blockquote:last-child > ul > li:hover > ul,
+	.side .md > blockquote:last-child > ul > li:active > ul,
+	.side .md > blockquote:last-child > ul > li > ul:hover,
+	.side .md > blockquote:last-child > ul > li > ul:active {
+		position: relative;
+		top: -36px;
+		display: inline-block;
+		overflow: hidden;
+		margin-left: 163px;
+		padding: 0 50px 50px 3px;
+		height: auto;
+	}
+
+	.side .md > blockquote:last-child li > ul > li,
+	.side .md > blockquote:last-child li > ul > li {
+		min-width: 150px;
+		width: auto;
+		background-color: #ddd;
+		box-shadow: 0 2px 6px 0 #bebebe;
+		color: #5ca2e8;
+		white-space: nowrap;
+	}
+
+#header-bottom-left {
+	/*same selector includes via headerImages module as well, with different values*/
+	margin-left: 33px;
+}
+
+.res-nightmode .side .md > blockquote:last-child {
+	border: 0 none;
+	background-color: transparent;
+}
+
+	.res-nightmode .side .md > blockquote:last-child > h1,
+	.res-nightmode .side .md > blockquote:last-child > h1 a {
+		color: #ff910b !important;
+	}
+
+	.res-nightmode .side .md > blockquote:last-child:hover > h1,
+	.res-nightmode .side .md > blockquote:last-child:active > h1,
+	.res-nightmode .side .md > blockquote:last-child:hover > h1 a,
+	.res-nightmode .side .md > blockquote:last-child:active > h1 a {
+		background-color: #ff910b !important;
+		color: #414141 !important;
+	}
+
+	.res-nightmode .side .md > blockquote:last-child li {
+		border-color: #6a6a6a;
+		background-color: #444;
+		box-shadow: 0 1px 6px 0 #000;
+		text-shadow: 0 1px 0 #888;
+	}
+
+		.res-nightmode .side .md > blockquote:last-child li a {
+			color: #bbb;
+		}
+
+	.res-nightmode .side .md > blockquote:last-child ul > li:hover,
+	.res-nightmode .side .md > blockquote:last-child ul > li:active,
+	.res-nightmode .side .md > blockquote:last-child ul > li:hover > a,
+	.res-nightmode .side .md > blockquote:last-child ul > li:active > a {
+		background-color: #ff910b;
+		color: #dcebfa !important;
+		text-shadow: 0 1px 0 #333;
+	}
+
+	.res-nightmode .side .md > blockquote:last-child li > ul > li {
+		background-color: #4a4a4a;
+		box-shadow: 0 1px 6px 0 #000;
+	}
+
+/* --  C.4.end Navigator ---- */
+/* --  C.8. Reddit Name Switcher ---- */
+.pagename a:after,
+.titlebox .redditname a:after {
+	content: 'Relationships'; /* type the custom name here */
+}
+
+.pagename a,
+.titlebox .redditname a {
+	font-size: 0 !important;
+}
+
+	.pagename a:after {
+		vertical-align: bottom;
+		font-size: 18px;
+	}
+
+	.titlebox .redditname a:after {
+		font-size: 26px;
+	}
+
+/* --  C.8.end Reddit Name Switcher ---- */
+/* --  C.10 Common settings that differ per sub ---- */
+.side .md > blockquote:nth-of-type(1) {
+	left: 265px;
+}
+
+.side .md > blockquote:last-child {
+	left: 410px;
+}
+/* --  C.10  end */
+/* --  C.11. Selective Downvotes ---- */
+/*To hide them on posts only, recommended */
+
+.linkinfo .score {
+	display: block;
+	float: none;
+	margin: -1px;
+	width: auto;
+	height: auto;
+	border-color: #fff;
+}
+
+	.linkinfo .score .word {
+		display: inline;
+		margin: 5px;
+	}
+
+.linkinfo .totalvotes {
+	border-color: #fff;
+}
+
+/* --  C.11.end Selective Downvotes ---- */
+/* --  C.12. Sidebar Space - flow the content of posts and comments into space reserved for sidebar ---- */
+div.content {
+	margin: 60px 30px 30px;
+	padding: 10px 20px;
+}
+
+.panestack-title {
+	overflow: hidden;
+}
+
+body.listing-page > div.content,
+body.single-page > div.content,
+body.search-page > div.content,
+body.messages-page > div.content,
+body.multi-page > div.content {
+	overflow: visible;
+}
+
+.searchpane {
+	margin: 0 355px 0 0;
+	/* may have to tweak 355px if the side paddings or margins are changed on div.content */
+}
+
+/* --  C.12.end Sidebar Space - flow the content ---- */
+/* --  Custom Filters in header ---- */
+
+/* Search Page */
+html:lang(se) .search-summary,
+html:lang(se) .searchpane,
+html:lang(rr) .search-summary,
+html:lang(rr) .searchpane,
+html:lang(pr) .search-summary,
+html:lang(pr) .searchpane,
+html:lang(bu) .search-summary,
+html:lang(bu) .searchpane,
+html:lang(ms) .search-summary,
+html:lang(ms) .searchpane,
+html:lang(nr) .search-summary,
+html:lang(nr) .searchpane,
+html:lang(dg) .search-summary,
+html:lang(dg) .searchpane,
+html:lang(iy) .search-summary,
+html:lang(iy) .searchpane,
+html:lang(ud) .search-summary,
+html:lang(ud) .searchpane,
+html:lang(ut) .search-summary,
+html:lang(ut) .searchpane,
+html:lang(ma) .search-summary,
+html:lang(ma) .searchpane {
+	position: absolute;
+	right: 40px;
+	left: 350px;
+	z-index: 99;
+	visibility: hidden;
+	margin: -174px 0 0;
+	padding: 0;
+	text-align: right;
+}
+
+html:lang(se) body.search-page #search input[type='text'],
+html:lang(rr) body.search-page #search input[type='text'],
+html:lang(pr) body.search-page #search input[type='text'],
+html:lang(bu) body.search-page #search input[type='text'],
+html:lang(ms) body.search-page #search input[type='text'],
+html:lang(nr) body.search-page #search input[type='text'],
+html:lang(dg) body.search-page #search input[type='text'],
+html:lang(iy) body.search-page #search input[type='text'],
+html:lang(ud) body.search-page #search input[type='text'],
+html:lang(ut) body.search-page #search input[type='text'],
+html:lang(ma) body.search-page #search input[type='text'] {
+	visibility: visible;
+	width: 450px;
+	border-color: #8ccbfc;
+}
+
+html:lang(se) body.search-page .hover.pagename.redditname,
+html:lang(rr) body.search-page .hover.pagename.redditname,
+html:lang(pr) body.search-page .hover.pagename.redditname,
+html:lang(bu) body.search-page .hover.pagename.redditname,
+html:lang(ms) body.search-page .hover.pagename.redditname,
+html:lang(nr) body.search-page .hover.pagename.redditname,
+html:lang(dg) body.search-page .hover.pagename.redditname,
+html:lang(iy) body.search-page .hover.pagename.redditname,
+html:lang(ud) body.search-page .hover.pagename.redditname,
+html:lang(ut) body.search-page .hover.pagename.redditname,
+html:lang(ma) body.search-page .hover.pagename.redditname {
+	font-size: 0;
+}
+
+/* Relationships */
+a[href$='#rel'] {
+	border-color: #c566c5;
+}
+
+/* Personal issues */
+a[href$='#per'] {
+	border-color: #5f8bc4;
+}
+
+/* Breakups */
+a[href$='#brk'] {
+	border-color: #84cbff;
+}
+
+/* Miscellaneous */
+a[href$='#mic'] {
+	border-color: #029900;
+}
+
+/* Non-Romantic */
+a[href$='#nro'] {
+	border-color: #5fd35d;
+}
+
+/* Dating */
+a[href$='#dat'] {
+	border-color: #fde950;
+}
+
+/* Infidelity */
+a[href$='#inf'] {
+	border-color: #ffac30;
+}
+
+/* Updates */
+a[href$='#upd'] {
+	border-color: #555;
+}
+
+/* Untagged */
+a[href$='#unt'] {
+	border-color: #f00;
+}
+
+/* Meta */
+a[href$='#met'] {
+	border-color: #333;
+}
+
+/* All */
+a[title$='all posts'],
+html:lang(rr) a[href$='#rel'],
+html:lang(pr) a[href$='#per'],
+html:lang(bu) a[href$='#brk'],
+html:lang(ms) a[href$='#mic'],
+html:lang(nr) a[href$='#nro'],
+html:lang(dg) a[href$='#dat'],
+html:lang(iy) a[href$='#inf'],
+html:lang(ud) a[href$='#upd'],
+html:lang(ut) a[href$='#unt'],
+html:lang(ma) a[href$='#met'] {
+	margin: 0 2px;
+	padding: 7px 9px 25px !important;
+	border-width: 2px 0 0 !important;
+	background-color: #ececea;
+}
+
+	a[title$='all posts']:after,
+	html:lang(rr) a[href$='#rel']:after,
+	html:lang(pr) a[href$='#per']:after,
+	html:lang(bu) a[href$='#brk']:after,
+	html:lang(ms) a[href$='#mic']:after,
+	html:lang(nr) a[href$='#nro']:after,
+	html:lang(dg) a[href$='#dat']:after,
+	html:lang(iy) a[href$='#inf']:after,
+	html:lang(ud) a[href$='#upd']:after,
+	html:lang(ut) a[href$='#unt']:after,
+	html:lang(ma) a[href$='#met']:after {
+		position: relative;
+		z-index: -1;
+		display: block;
+		margin: -20px 0 0 -7px;
+		padding: 14px 8px;
+		width: 100%;
+		box-shadow: 0 0 10px 1px #c2c2c2;
+		content: '';
+	}
+
+/* All */
+.res-nightmode a[title$='all posts'],
+html:lang(rr) .res-nightmode a[href$='#rel'],
+html:lang(pr) .res-nightmode a[href$='#per'],
+html:lang(bu) .res-nightmode a[href$='#brk'],
+html:lang(ms) .res-nightmode a[href$='#mic'],
+html:lang(nr) .res-nightmode a[href$='#nro'],
+html:lang(dg) .res-nightmode a[href$='#dat'],
+html:lang(iy) .res-nightmode a[href$='#inf'],
+html:lang(ud) .res-nightmode a[href$='#upd'],
+html:lang(ut) .res-nightmode a[href$='#unt'],
+html:lang(ma) .res-nightmode a[href$='#met'] {
+	background-color: #111;
+}
+
+	.res-nightmode a[title$='all posts']:after,
+	html:lang(rr) .res-nightmode a[href$='#rel']:after,
+	html:lang(pr) .res-nightmode a[href$='#per']:after,
+	html:lang(bu) .res-nightmode a[href$='#brk']:after,
+	html:lang(ms) .res-nightmode a[href$='#mic']:after,
+	html:lang(nr) .res-nightmode a[href$='#nro']:after,
+	html:lang(dg) .res-nightmode a[href$='#dat']:after,
+	html:lang(iy) .res-nightmode a[href$='#inf']:after,
+	html:lang(ud) .res-nightmode a[href$='#upd']:after,
+	html:lang(ut) .res-nightmode a[href$='#unt']:after,
+	html:lang(ma) .res-nightmode a[href$='#met']:after {
+		box-shadow: 0 0 10px 1px #2c2c2c;
+	}
+
+body:not(.moderator) li a[href$='#met'],
+body:not(.moderator) .flairoptionpane .linkflair-untagged,
+body:not(.moderator) .flairoptionpane .linkflair-meta,
+body:not(.moderator) .flairoptionpane .linkflair-new,
+body:not(.moderator) .flairoptionpane .linkflair-que,
+body:not(.moderator) .flairoptionpane .linkflair-locked,
+body:not(.moderator) .flairselection .flairremove {
+	display: none !important;
+}
+
+html:lang(se) a[title$='all posts'],
+html:lang(rr) a[title$='all posts'],
+html:lang(pr) a[title$='all posts'],
+html:lang(bu) a[title$='all posts'],
+html:lang(ms) a[title$='all posts'],
+html:lang(nr) a[title$='all posts'],
+html:lang(dg) a[title$='all posts'],
+html:lang(iy) a[title$='all posts'],
+html:lang(ud) a[title$='all posts'],
+html:lang(ut) a[title$='all posts'],
+html:lang(ma) a[title$='all posts'],
+body.wiki-page a[title$='all posts'] {
+	margin: 0;
+	padding: 9px !important;
+	border-width: 0 0 2px !important;
+	background-color: transparent;
+}
+
+	html:lang(se) a[title$='all posts']:after,
+	html:lang(rr) a[title$='all posts']:after,
+	html:lang(pr) a[title$='all posts']:after,
+	html:lang(bu) a[title$='all posts']:after,
+	html:lang(ms) a[title$='all posts']:after,
+	html:lang(nr) a[title$='all posts']:after,
+	html:lang(dg) a[title$='all posts']:after,
+	html:lang(iy) a[title$='all posts']:after,
+	html:lang(ud) a[title$='all posts']:after,
+	html:lang(ut) a[title$='all posts']:after,
+	html:lang(ma) a[title$='all posts']:after,
+	body.wiki-page a[title$='all posts']:after {
+		display: inline;
+		border: 0 none;
+		box-shadow: none;
+	}
+
+html:lang(rr) .thing.linkflair-relationships .linkflairlabel,
+html:lang(pr) .thing.linkflair-personal .linkflairlabel,
+html:lang(bu) .thing.linkflair-breakups .linkflairlabel,
+html:lang(ms) .thing.linkflair-misc .linkflairlabel,
+html:lang(nr) .thing.linkflair-misc .linkflairlabel,
+html:lang(dg) .thing.linkflair-dating .linkflairlabel,
+html:lang(iy) .thing.linkflair-infidelity .linkflairlabel,
+html:lang(ud) .thing.linkflair-updates .linkflairlabel,
+html:lang(ut) .thing.linkflair-untagged .linkflairlabel {
+	float: right;
+	min-width: 2em;
+	opacity: .3;
+}
+
+html:lang(rr) .thing.linkflair-relationships .flairoptionpane .linkflairlabel,
+html:lang(pr) .thing.linkflair-personal .flairoptionpane .linkflairlabel,
+html:lang(bu) .thing.linkflair-breakups .flairoptionpane .linkflairlabel,
+html:lang(ms) .thing.linkflair-misc .flairoptionpane .linkflairlabel,
+html:lang(nr) .thing.linkflair-misc .flairoptionpane .linkflairlabel,
+html:lang(dg) .thing.linkflair-dating .flairoptionpane .linkflairlabel,
+html:lang(iy) .thing.linkflair-infidelity .flairoptionpane .linkflairlabel,
+html:lang(ud) .thing.linkflair-updates .flairoptionpane .linkflairlabel,
+html:lang(ut) .thing.linkflair-untagged .flairoptionpane .linkflairlabel {
+	float: none;
+	/*color: #333;
+	background: none transparent;*/
+	min-width: 2em;
+	opacity: .7;
+}
+
+html:lang(se) .side .md > blockquote:nth-of-type(2) p:after,
+html:lang(rr) .side .md > blockquote:nth-of-type(2) p:after,
+html:lang(pr) .side .md > blockquote:nth-of-type(2) p:after,
+html:lang(bu) .side .md > blockquote:nth-of-type(2) p:after,
+html:lang(ms) .side .md > blockquote:nth-of-type(2) p:after,
+html:lang(nr) .side .md > blockquote:nth-of-type(2) p:after,
+html:lang(dg) .side .md > blockquote:nth-of-type(2) p:after,
+html:lang(iy) .side .md > blockquote:nth-of-type(2) p:after,
+html:lang(ud) .side .md > blockquote:nth-of-type(2) p:after,
+html:lang(ut) .side .md > blockquote:nth-of-type(2) p:after,
+html:lang(ma) .side .md > blockquote:nth-of-type(2) p:after {
+	float: right;
+	content: "You are browsing a Filtered view of posts by topic. Click 'ALL' to view all posts by removing the topic filter.";
+	opacity: .8;
+}
+
+/* --  End Custom Filters in header ---- */
+/* --  Custom Filters display in posts ---- */
+
+.linkflair-que a.loggedin + .linkflairlabel,
+.linkflair-new a.loggedin + .linkflairlabel {
+	overflow: visible;
+	border: 0 none;
+}
+
+.linkflair-que .flat-list.buttons:after,
+.linkflair-new .flat-list.buttons:after,
+body.comments-page .linkflair-que span.linkflairlabel:after,
+body.comments-page .linkflair-new span.linkflairlabel:after {
+	display: inline-block;
+	margin-left: 15px;
+	padding: 0 4px;
+	border-radius: 15px;
+	background-color: #f00;
+	color: #fff;
+	content: '◉ Assign a Topic flair to this post!! ◉';
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.thing.link:not(.linkflair) a.flairselectbtn,
+.linkflair-que a.flairselectbtn,
+.linkflair-new a.flairselectbtn {
+	display: inline-block;
+	margin: -5px 5px 0 0 !important;
+	padding: 2px 10px 3px !important;
+	min-width: 30px;
+	border: 1px solid #3079ed !important;
+	background-color: #5ba2fd;
+	background-image: -webkit-linear-gradient(top,#5ba2fd,#4b8adb) !important;
+	background-image: -moz-linear-gradient(top,#5ba2fd,#4b8adb) !important;
+	background-image: linear-gradient(top,#5ba2fd,#4b8adb) !important;
+	color: #fff !important;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px !important;
+	cursor: pointer;
+}
+
+body.post-linkflair-locked .usertext-edit,
+body.post-linkflair-locked .sidebox.submit,
+body.post-linkflair-locked .commentingAs,
+body.post-linkflair-locked .markdownEditor,
+body.post-linkflair-locked .report-button,
+body.post-linkflair-locked a[onclick*='return reply(this)'],
+body.post-linkflair-locked .subButtons,
+body.post-linkflair-locked .helplink,
+body.post-linkflair-locked .titlebox .fancy-toggle-button.toggle > .option.add,
+body.post-linkflair-locked a[href*='#btn'] {
+	display: none !important;
+}
+
+
+body.post-linkflair-locked > div.content > .linklisting .clearleft:after,
+body.post-linkflair-locked > div.content > .sitetable:after,
+body.post-linkflair-locked > div.content:after {
+	position: relative;
+	display: inline-block;
+	margin: 10px 0;
+	padding: 10px 10px 0;
+	color: #bbb;
+	content: 'This post is locked.';
+	letter-spacing: -1px;
+	font-size: 20px;
+}
+
+body.post-linkflair-locked > div.content > .sitetable:after {
+	margin: 35px 0 0;
+	padding: 10px 10px 0;
+	color: #999;
+	content: 'Just read-only and No further participation';
+	font-size: 24px;
+}
+
+body.post-linkflair-locked .arrow {
+	visibility: hidden !important;
+}
+
+/* --  End Custom Filters display in posts ---- */
+
+/* --  C.14. User Notices - inform submitters about reporting buttons and downvotes ---- */
+/* Emphasising reporting buttons */
+.entry .flat-list li form.report-button .main a,
+.entry .flat-list li form.remove-button .main a {
+	color: #777;
+}
+
+.entry:hover ul.flat-list li form.report-button .main a,
+.entry:hover ul.flat-list li form.remove-button .main a,
+.entry.RES-keyNav-activeElement ul.flat-list li form.report-button .main a,
+.entry.RES-keyNav-activeElement ul.flat-list li form.remove-button .main a {
+	color: #a90404;
+}
+
+/* Notice for Report button */
+.report-button a.yes:hover:after {
+	position: absolute;
+	z-index: 1000;
+	display: block;
+	margin-top: -80px;
+	margin-left: -40px;
+	padding: 5px;
+	width: 300px;
+	border: 1px solid #333;
+	background: #1d1212;
+	color: #f6f6f6;
+	content: 'Please send a message to moderators with the link for this item citing the reason for reporting. Thank you for your help. ';
+	text-align: center;
+	white-space: normal;
+	font-size: 11px;
+}
+
+/* --  C.14.end User Notices ---- */
+
+/*--  C.13.b. No Participation Mode - Also subscribers-version ----*/
+/* by /u/KortoloB
+ * /r/NoParticipation
+ * 
+ * Link people to np.reddit.com/r/YourSubreddit to show them a read-only version.
+ * All users will see the read-only version when url has np.
+ * This is of course by no means fool-proof, but it should work for the average user.
+ */
+
+body:lang(np) .arrow,
+body:lang(np) .arrow:after,
+body:lang(np) .arrow:hover {
+	visibility: hidden !important;
+}
+
+body:lang(np) .usertext-edit,
+body:lang(np) .sidebox.submit,
+body:lang(np) .commentingAs,
+body:lang(np) .markdownEditor,
+body:lang(np) .report-button,
+body:lang(np) a[onclick*='return reply(this)'],
+body:lang(np) .subButtons,
+body:lang(np) .helplink,
+body:lang(np) .titlebox .fancy-toggle-button.toggle > .option.add,
+body:lang(np) a[href*='#btn'] {
+	display: none !important;
+}
+
+body:lang(np) #siteTable:before {
+	display: block;
+	overflow: hidden;
+	margin: -5px 0 5px 0;
+	padding: 5px 10px;
+	background-color: #fdf7dd;
+	color: #e00606;
+	content: 'You have been linked to a read-only version of this subreddit. Please respect the community by not voting.';
+	font-weight: bold;
+	font-size: small;
+}
+
+body:lang(np) .entry.likes:not(.reddit-entry):before,
+body:lang(np) .entry.dislikes:not(.reddit-entry):before {
+	color: #e00606;
+	content: 'Please do not vote or comment when you come from external subreddits.';
+	font-weight: bold;
+}
+
+body.comments-page:lang(np) > div.content > .linklisting .clearleft:after,
+body:lang(np) > div.content > .sitetable:after,
+body:lang(np) > div.content:after {
+	position: relative;
+	display: inline-block;
+	margin: 10px 0;
+	padding: 10px 10px 0;
+	color: #bbb;
+	content: 'You are viewing a limited version of the subreddit.';
+	letter-spacing: -1px;
+	font-size: 20px;
+}
+
+body:lang(np) > div.content > .sitetable:after {
+	margin: 35px 0 0;
+	padding: 10px 10px 0;
+	color: #999;
+	content: 'No-participation - just read-only, no comments, no voting';
+	font-size: 24px;
+}
+
+body:lang(np) > div.content > div.commentarea:before {
+	margin: -10px 15px;
+	padding: 0 2px;
+	background-color: #aaa;
+	color: #fff;
+	content: "To revert to normal version, replace 'np.reddit.com' with 'www.reddit.com' in the url. Please respect the community when visiting from external urls";
+	letter-spacing: 0;
+	font-size: 12px;
+}
+
+/* Wiki protection */
+body.wiki-page:lang(np) span.pageactions a.wikiaction-edit:not(.wikiaction-current),
+body.wiki-page:lang(np) div.wiki-page-content form#editform label[for='reason'],
+body.wiki-page:lang(np) div.wiki-page-content form#editform input#wiki_revision_reason,
+body.wiki-page:lang(np) div.wiki-page-content form#editform input[type='submit'] {
+	display: none !important;
+}
+/*--  C.13.b.end No Participation mode - Also subscribers-version----*/
+
+/* Rules reminder in the background of the comment box - Source: r/findareddit */
+.commentarea>.usertext textarea:not(:focus) {
+    background: url(%%CommentBackgroundReportNotComment%%);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Comment form warning (+ child comment warning styling) - Source: /r/AskScience */
+.commentarea .usertext-edit .bottom-area:before,
+body:not(.res) .commentarea .child .usertext .usertext-edit > div:first-child:before,
+.res .commentarea .child .usertext .usertext-edit > div:nth-of-type(2):before {
+content: "In /r/Relationships, we seek to provide a safe and constructive environment for people who need help with their particular relationship situations.  Abusive, tangential, or otherwise unhelpful comments should be reported and will be removed.  Please see our Wiki for more information.";
+padding: 4px 0;
+margin-bottom: 3px;
+display: block;
+background-color: #DEF;
+border: 1px solid #59C;
+font-size: 11px;
+font-weight: bold;
+text-align: center
+}
+
+/* Child comment warning - Source: /r/AskScience*/
+body:not(.res) .commentarea .child .usertext .usertext-edit > div:first-child:before,
+.res .commentarea .child .usertext .usertext-edit > div:nth-of-type(2):before {
+content: "Please be constructive and focused on helping the poster in commenting.";
+height: 21px;
+padding: 0;
+line-height: 21px
+}
+body:not(.res) .commentarea .child .usertext .usertext-edit > div:first-child:before {
+width: 504px
+}
